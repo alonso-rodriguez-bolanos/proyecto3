@@ -1,0 +1,5226 @@
+[
+ {
+  "id": 1,
+  "nombre": "Hades",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/capsule_616x353.jpg?t=1758127023",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2020-09-17",
+  "precio_sugerido": 24.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 24.99,
+    "precio_regular": 24.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1145360/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 6.25,
+    "precio_regular": 24.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10002648",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 79,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 37.8,
+   "horas_completo": 94.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:31+00:00"
+ },
+ {
+  "id": 2,
+  "nombre": "The Witcher 3: Wild Hunt",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/7abf00646609445b27a44cafaa11adb9f125fb43/capsule_616x353.jpg?t=1793900434",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2015-05-19",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 10.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/292030/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 20.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/204794",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 97,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 20.0,
+   "horas_completo": 50.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:31+00:00"
+ },
+ {
+  "id": 3,
+  "nombre": "Red Dead Redemption 2",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_616x353.jpg?t=1759502961",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2018-10-26",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1174180/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/209441",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 97,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 28.3,
+   "horas_completo": 70.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:32+00:00"
+ },
+ {
+  "id": 4,
+  "nombre": "Grand Theft Auto V",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/271590/capsule_616x353.jpg?t=1765387725",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2013-09-17",
+  "precio_sugerido": 29.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 22.49,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/271590/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 22.49,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/product/UP1004-PPSA03420_00-GTAVCROSSGENBUND",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 64,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 13.9,
+   "horas_completo": 34.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:32+00:00"
+ },
+ {
+  "id": 5,
+  "nombre": "Cyberpunk 2077",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/f5283a1d1a2a44b9b67a861cc2e047859557a872/capsule_616x353_alt_assets_9.jpg?t=1792682505",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2020-12-10",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1091500/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/234567",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 78,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 32.9,
+   "horas_completo": 82.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:33+00:00"
+ },
+ {
+  "id": 6,
+  "nombre": "Elden Ring",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/capsule_616x353.jpg?t=1790290043",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-02-25",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1245620/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000333",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 71,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 49.6,
+   "horas_completo": 124.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:33+00:00"
+ },
+ {
+  "id": 7,
+  "nombre": "Dark Souls III",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/374320/capsule_616x353.jpg?t=1748630784",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2016-04-12",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/374320/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/201190",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 87,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 19.2,
+   "horas_completo": 48.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:34+00:00"
+ },
+ {
+  "id": 8,
+  "nombre": "Sekiro: Shadows Die Twice",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1762888662",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2019-03-22",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/814380/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/232898",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 74,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 41.1,
+   "horas_completo": 102.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:34+00:00"
+ },
+ {
+  "id": 9,
+  "nombre": "God of War",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/capsule_616x353.jpg?t=1763059412",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2018-04-20",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1593500/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/227770",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 67,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 8.2,
+   "horas_completo": 20.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:35+00:00"
+ },
+ {
+  "id": 10,
+  "nombre": "God of War Ragnarök",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2322010/capsule_616x353.jpg?t=1776465233",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-11-09",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2322010/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10001850",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 96,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 28.3,
+   "horas_completo": 70.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:35+00:00"
+ },
+ {
+  "id": 11,
+  "nombre": "Marvel's Spider-Man Remastered",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1817070/capsule_616x353.jpg?t=1787838689",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2020-11-12",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1817070/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000762",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 69,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 48.1,
+   "horas_completo": 120.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:36+00:00"
+ },
+ {
+  "id": 12,
+  "nombre": "Marvel's Spider-Man: Miles Morales",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1817190/capsule_616x353.jpg?t=1787838710",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2020-11-12",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1817190/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000649",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 96,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 12.5,
+   "horas_completo": 31.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:36+00:00"
+ },
+ {
+  "id": 13,
+  "nombre": "Marvel's Spider-Man 2",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2651280/cb8da9b3e99cf7362cd88c10a0544b7fe892ccad/capsule_616x353.jpg?t=1763569811",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-10-20",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2651280/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 34.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10002456",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 69,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 21.0,
+   "horas_completo": 52.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:37+00:00"
+ },
+ {
+  "id": 14,
+  "nombre": "Horizon Zero Dawn Remastered",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2561580/b1967a5567a09cf8f8b67e56ed90ebb074fc1e53/capsule_616x353.jpg?t=1750952943",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-10-31",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 37.49,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2561580/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/221727",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 72,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 33.3,
+   "horas_completo": 83.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:37+00:00"
+ },
+ {
+  "id": 15,
+  "nombre": "Horizon Forbidden West Complete Edition",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2420110/capsule_616x353.jpg?t=1789585745",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-02-18",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2420110/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000886",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 97,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 43.1,
+   "horas_completo": 107.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:38+00:00"
+ },
+ {
+  "id": 16,
+  "nombre": "Ghost of Tsushima",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_616x353.jpg?t=1763409398",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2020-07-17",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2215430/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/235227",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 79,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 22.1,
+   "horas_completo": 55.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:38+00:00"
+ },
+ {
+  "id": 17,
+  "nombre": "The Last of Us Part I",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1888930/capsule_616x353.jpg?t=1750959031",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-09-02",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1888930/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10002694",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 90,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 25.3,
+   "horas_completo": 63.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:39+00:00"
+ },
+ {
+  "id": 18,
+  "nombre": "The Last of Us Part II Remastered",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2531310/94b5d8b3165a6fe592e406054b08a2dd24e2f848/capsule_616x353.jpg?t=1750959180",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-01-19",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2531310/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/230079",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 80,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 51.0,
+   "horas_completo": 127.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:39+00:00"
+ },
+ {
+  "id": 19,
+  "nombre": "Uncharted: Legacy of Thieves Collection",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659420/capsule_616x353.jpg?t=1779309472",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-01-28",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1659420/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 25.0,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/205354",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 65,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 10.7,
+   "horas_completo": 26.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:40+00:00"
+ },
+ {
+  "id": 20,
+  "nombre": "Days Gone",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1259420/capsule_616x353.jpg?t=1750947718",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2019-04-26",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1259420/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 12.5,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/229018",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 74,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 39.6,
+   "horas_completo": 99.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:40+00:00"
+ },
+ {
+  "id": 21,
+  "nombre": "Death Stranding Director's Cut",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1850570/3b0d071a89844ffc8062edbb36bc0b6a7ab3f7ce/capsule_616x353.jpg?t=1793287496",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-09-24",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 29.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1850570/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 29.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/234585",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 92,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 17.6,
+   "horas_completo": 44.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:41+00:00"
+ },
+ {
+  "id": 22,
+  "nombre": "Returnal",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1649240/capsule_616x353.jpg?t=1750956860",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-04-30",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1649240/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000176",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 61,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 21.3,
+   "horas_completo": 53.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:41+00:00"
+ },
+ {
+  "id": 23,
+  "nombre": "Ratchet & Clank: Rift Apart",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1895880/capsule_616x353.jpg?t=1787838873",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-06-11",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1895880/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000669",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 85,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 40.8,
+   "horas_completo": 102.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:42+00:00"
+ },
+ {
+  "id": 24,
+  "nombre": "Sackboy: A Big Adventure",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1599660/capsule_616x353.jpg?t=1750957508",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2020-11-12",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1599660/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000177",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 79,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 58.9,
+   "horas_completo": 147.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:42+00:00"
+ },
+ {
+  "id": 25,
+  "nombre": "Helldivers 2",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/5dca2c120a87aeee02bbe8ed58711b4255c26228/capsule_616x353.jpg?t=1793395133",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-02-08",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 10.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/553850/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 20.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000657",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 80,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 36.1,
+   "horas_completo": 90.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:43+00:00"
+ },
+ {
+  "id": 26,
+  "nombre": "Stellar Blade",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3489700/22469f910e2be326ea2a70d10601e3521c7b105d/capsule_616x353.jpg?t=1776466244",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-04-26",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/3489700/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10006891",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 63,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 5.6,
+   "horas_completo": 14.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:43+00:00"
+ },
+ {
+  "id": 27,
+  "nombre": "Rise of the Ronin",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1340990/708f3b2e479bbbe77e22190816151dd682f9172b/capsule_616x353.jpg?t=1775540130",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-03-22",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 17.5,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1340990/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 34.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10003386",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 67,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 26.9,
+   "horas_completo": 67.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:44+00:00"
+ },
+ {
+  "id": 28,
+  "nombre": "Baldur's Gate 3",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/59827b3d0abf2f29adacfe72fdfd11059d6974e2/capsule_616x353.jpg?t=1777363040",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-08-03",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1086940/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10007460",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 81,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 46.7,
+   "horas_completo": 116.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:44+00:00"
+ },
+ {
+  "id": 29,
+  "nombre": "The Elder Scrolls V: Skyrim Special Edition",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/489830/capsule_616x353.jpg?t=1786648247",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2016-10-28",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 10.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/489830/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/230955",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 82,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 25.0,
+   "horas_completo": 62.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:45+00:00"
+ },
+ {
+  "id": 30,
+  "nombre": "Fallout 4",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/377160/capsule_616x353.jpg?t=1786648137",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2015-11-10",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/377160/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 9.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/201511",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 80,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 48.1,
+   "horas_completo": 120.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:45+00:00"
+ },
+ {
+  "id": 31,
+  "nombre": "Resident Evil 4",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2050650/capsule_616x353.jpg?t=1772502922",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-03-24",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2050650/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/232114",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 78,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 37.3,
+   "horas_completo": 93.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:46+00:00"
+ },
+ {
+  "id": 32,
+  "nombre": "Resident Evil 2",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/883710/capsule_616x353.jpg?t=1779433152",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2019-01-25",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/883710/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 29.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/229500",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 70,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 34.2,
+   "horas_completo": 85.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:46+00:00"
+ },
+ {
+  "id": 33,
+  "nombre": "Resident Evil 3",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/952060/capsule_616x353.jpg?t=1790215956",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2020-04-03",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/952060/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/233069",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 67,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 56.2,
+   "horas_completo": 140.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:47+00:00"
+ },
+ {
+  "id": 34,
+  "nombre": "Resident Evil Village",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1196590/capsule_616x353.jpg?t=1776927117",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-05-07",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1196590/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 29.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/235235",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 74,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 46.6,
+   "horas_completo": 116.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:47+00:00"
+ },
+ {
+  "id": 35,
+  "nombre": "Resident Evil 7 Biohazard",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/418370/capsule_616x353.jpg?t=1778464947",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2017-01-24",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/418370/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 5.0,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/220037",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 94,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 41.6,
+   "horas_completo": 104.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:48+00:00"
+ },
+ {
+  "id": 36,
+  "nombre": "Monster Hunter: World",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/582010/capsule_616x353.jpg?t=1791439347",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2018-01-26",
+  "precio_sugerido": 29.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 14.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/582010/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 14.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/228785",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 75,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 16.0,
+   "horas_completo": 40.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:48+00:00"
+ },
+ {
+  "id": 37,
+  "nombre": "Monster Hunter Rise",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1446780/capsule_616x353.jpg?t=1792548454",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-03-26",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 10.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1446780/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 20.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10005250",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 97,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 43.6,
+   "horas_completo": 109.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:49+00:00"
+ },
+ {
+  "id": 38,
+  "nombre": "Monster Hunter Wilds",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2246340/a1df989a3b439e15171dc7144c1ce13c32abcae6/capsule_616x353.jpg?t=1787549555",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2025-02-28",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2246340/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10005176",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 86,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 6.0,
+   "horas_completo": 15.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:49+00:00"
+ },
+ {
+  "id": 39,
+  "nombre": "Devil May Cry 5",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/601150/capsule_616x353.jpg?t=1790215341",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2019-03-08",
+  "precio_sugerido": 29.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 29.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/601150/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 29.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/227315",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 79,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 27.6,
+   "horas_completo": 69.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:50+00:00"
+ },
+ {
+  "id": 40,
+  "nombre": "Street Fighter 6",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1364780/a98f033cbda5b71dbd8db735808aaf232cf587dd/capsule_616x353_alt_assets_21.jpg?t=1791866175",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-06-02",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1364780/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10001615",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 86,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 40.2,
+   "horas_completo": 100.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:50+00:00"
+ },
+ {
+  "id": 41,
+  "nombre": "Tekken 8",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1778820/capsule_616x353.jpg?t=1787180720",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-01-26",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1778820/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10006270",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 63,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 42.0,
+   "horas_completo": 105.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:51+00:00"
+ },
+ {
+  "id": 42,
+  "nombre": "Persona 5 Royal",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1687950/capsule_616x353.jpg?t=1783356822",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2020-03-31",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1687950/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/234529",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 77,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 40.8,
+   "horas_completo": 102.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:51+00:00"
+ },
+ {
+  "id": 43,
+  "nombre": "Persona 3 Reload",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2161700/capsule_616x353.jpg?t=1764776430",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-02-02",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 52.49,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2161700/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 52.49,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10001555",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 80,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 11.4,
+   "horas_completo": 28.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:52+00:00"
+ },
+ {
+  "id": 44,
+  "nombre": "NieR:Automata",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/524220/capsule_616x353.jpg?t=1793890935",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2017-03-07",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/524220/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 29.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/217551",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 94,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 38.9,
+   "horas_completo": 97.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:52+00:00"
+ },
+ {
+  "id": 45,
+  "nombre": "Final Fantasy VII Remake Intergrade",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1462040/capsule_616x353.jpg?t=1789446715",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-06-10",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1462040/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/228744",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 82,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 19.7,
+   "horas_completo": 49.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:53+00:00"
+ },
+ {
+  "id": 46,
+  "nombre": "Final Fantasy XVI",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2515020/capsule_616x353.jpg?t=1773294537",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-06-22",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 12.5,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2515020/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 12.5,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10002100",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 60,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 39.3,
+   "horas_completo": 98.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:53+00:00"
+ },
+ {
+  "id": 47,
+  "nombre": "Final Fantasy X/X-2 HD Remaster",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/359870/capsule_616x353.jpg?t=1777343443",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2014-03-18",
+  "precio_sugerido": 29.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 29.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/359870/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 14.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/201588",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 69,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 12.7,
+   "horas_completo": 31.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:54+00:00"
+ },
+ {
+  "id": 48,
+  "nombre": "Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1295510/capsule_616x353.jpg?t=1774588986",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2020-12-04",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 10.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1295510/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 10.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/product/UP0082-CUSA18600_00-0000000000000000",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 63,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 41.6,
+   "horas_completo": 104.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:54+00:00"
+ },
+ {
+  "id": 49,
+  "nombre": "Hollow Knight",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/f30cc19e25cce7e46cd7dfe89f3ee7852e634232/capsule_616x353.jpg?t=1776125684",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2017-02-24",
+  "precio_sugerido": 14.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 14.99,
+    "precio_regular": 14.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/367520/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 14.99,
+    "precio_regular": 14.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/product/UP1822-PPSA34970_00-HOLLOWKNIGHTPS50",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 71,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 54.4,
+   "horas_completo": 136.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:55+00:00"
+ },
+ {
+  "id": 50,
+  "nombre": "Celeste",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/504230/capsule_616x353.jpg?t=1714089525",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2018-01-25",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 9.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/504230/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/231477",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 81,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 21.9,
+   "horas_completo": 54.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:55+00:00"
+ },
+ {
+  "id": 51,
+  "nombre": "Dead Cells",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/588650/capsule_616x353.jpg?t=1779086887",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2018-08-07",
+  "precio_sugerido": 24.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 24.99,
+    "precio_regular": 24.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/588650/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 24.99,
+    "precio_regular": 24.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/231053",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 86,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 47.2,
+   "horas_completo": 118.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:56+00:00"
+ },
+ {
+  "id": 52,
+  "nombre": "Stardew Valley",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1786554168",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2016-02-26",
+  "precio_sugerido": 14.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 3.75,
+    "precio_regular": 14.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/413150/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 14.99,
+    "precio_regular": 14.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/227229",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 97,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 23.0,
+   "horas_completo": 57.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:56+00:00"
+ },
+ {
+  "id": 53,
+  "nombre": "Cuphead",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/268910/capsule_616x353.jpg?t=1709068852",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2017-09-29",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/268910/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 9.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10001369",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 90,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 59.6,
+   "horas_completo": 149.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:57+00:00"
+ },
+ {
+  "id": 54,
+  "nombre": "INSIDE",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/304430/31203c10b21261375ba74d5a489f1c7f57d30326/capsule_616x353.jpg?t=1793958852",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2016-06-29",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/304430/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/223663",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 96,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 30.6,
+   "horas_completo": 76.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:57+00:00"
+ },
+ {
+  "id": 55,
+  "nombre": "Outer Wilds",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/753640/d8d60759820aab1272090bb2edd60fde2b42dcf7/capsule_616x353.jpg?t=1785424341",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2019-05-28",
+  "precio_sugerido": 24.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 6.25,
+    "precio_regular": 24.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/753640/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 12.49,
+    "precio_regular": 24.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/229826",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 65,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 52.3,
+   "horas_completo": 130.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:58+00:00"
+ },
+ {
+  "id": 56,
+  "nombre": "Disco Elysium - The Final Cut",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632470/fb679568d9df57f9f31b7704f106d63c6e188fc3/capsule_616x353.jpg?t=1780913406",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2019-10-15",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 29.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/632470/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 20.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10002292",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 66,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 27.9,
+   "horas_completo": 69.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:58+00:00"
+ },
+ {
+  "id": 57,
+  "nombre": "Death's Door",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/894020/capsule_616x353.jpg?t=1788311627",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-07-20",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 14.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/894020/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 14.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10003808",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 62,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 19.1,
+   "horas_completo": 47.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:59+00:00"
+ },
+ {
+  "id": 58,
+  "nombre": "Tunic",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553420/capsule_616x353.jpg?t=1783359656",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-03-16",
+  "precio_sugerido": 29.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 22.49,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/553420/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 7.5,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10002475",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 79,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 46.2,
+   "horas_completo": 115.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T18:59:59+00:00"
+ },
+ {
+  "id": 59,
+  "nombre": "Sifu",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2138710/capsule_616x353.jpg?t=1782742326",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-02-08",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 20.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2138710/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10001973",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 90,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 37.6,
+   "horas_completo": 94.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:00+00:00"
+ },
+ {
+  "id": 60,
+  "nombre": "It Takes Two",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1426210/capsule_616x353.jpg?t=1777395376",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-03-26",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 10.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1426210/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 29.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/234689",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 69,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 49.5,
+   "horas_completo": 123.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:00+00:00"
+ },
+ {
+  "id": 61,
+  "nombre": "A Way Out",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1222700/capsule_616x353.jpg?t=1777323433",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2018-03-23",
+  "precio_sugerido": 29.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 29.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1222700/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 7.5,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/227061",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 76,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 27.0,
+   "horas_completo": 67.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:01+00:00"
+ },
+ {
+  "id": 62,
+  "nombre": "Split Fiction",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2001120/5a3209f496e911ff2fa6dccd58c682c89632d09b/capsule_616x353.jpg?t=1763484567",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2025-03-06",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 25.0,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2001120/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10005449",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 78,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 49.1,
+   "horas_completo": 122.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:01+00:00"
+ },
+ {
+  "id": 63,
+  "nombre": "Lies of P",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1627720/capsule_616x353.jpg?t=1764565054",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-09-19",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1627720/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10006052",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 69,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 51.0,
+   "horas_completo": 127.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:02+00:00"
+ },
+ {
+  "id": 64,
+  "nombre": "Hogwarts Legacy",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/3f795a6fba1a710110ad16aa80583ecdf42812f4/capsule_616x353.jpg?t=1790708992",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-02-10",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/990080/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/232447",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 92,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 42.7,
+   "horas_completo": 106.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:02+00:00"
+ },
+ {
+  "id": 65,
+  "nombre": "Star Wars Jedi: Fallen Order",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172380/capsule_616x353.jpg?t=1788256986",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2019-11-15",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1172380/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/232345",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 67,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 59.7,
+   "horas_completo": 149.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:03+00:00"
+ },
+ {
+  "id": 66,
+  "nombre": "Star Wars Jedi: Survivor",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1774580/capsule_616x353.jpg?t=1788257050",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-04-28",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 34.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1774580/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 34.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10005114",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 95,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 7.1,
+   "horas_completo": 17.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:03+00:00"
+ },
+ {
+  "id": 67,
+  "nombre": "Mass Effect Legendary Edition",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1328670/capsule_616x353.jpg?t=1777395134",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2021-05-14",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1328670/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000606",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 83,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 46.5,
+   "horas_completo": 116.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:04+00:00"
+ },
+ {
+  "id": 68,
+  "nombre": "Dragon Age: The Veilguard",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1845910/a9faf4de76f5ac4a757a6d30f5f38ce543b1aa3f/capsule_616x353.jpg?t=1777414790",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-10-31",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1845910/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 52.49,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000586",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 79,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 55.7,
+   "horas_completo": 139.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:04+00:00"
+ },
+ {
+  "id": 69,
+  "nombre": "Assassin's Creed Valhalla",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2208920/ea4223190283a42e67e810c97c66cf7cb78cfdad/capsule_616x353_alt_assets_0.jpg?t=1793391396",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2020-11-10",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2208920/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000237",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 67,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 14.6,
+   "horas_completo": 36.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:05+00:00"
+ },
+ {
+  "id": 70,
+  "nombre": "Assassin's Creed Odyssey",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/812140/capsule_616x353.jpg?t=1793886405",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2018-10-05",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/812140/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/229601",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 64,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 31.4,
+   "horas_completo": 78.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:05+00:00"
+ },
+ {
+  "id": 71,
+  "nombre": "Assassin's Creed Mirage",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3035570/15583e1c0a34e5858cffed256ef8d3b372374d9d/capsule_616x353.jpg?t=1792777978",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-10-05",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 12.5,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/3035570/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10004865",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 97,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 52.7,
+   "horas_completo": 131.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:06+00:00"
+ },
+ {
+  "id": 72,
+  "nombre": "Far Cry 6",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2369390/b5ff5552cefe85aa71375403c988b848e96040b6/capsule_616x353.jpg?t=1793372616",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-10-07",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2369390/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/233961",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 82,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 27.5,
+   "horas_completo": 68.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:06+00:00"
+ },
+ {
+  "id": 73,
+  "nombre": "Far Cry 5",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/552520/fc7eabeaaf868041538c9c10628f8848fd71c948/capsule_616x353.jpg?t=1792530774",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2018-03-27",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/552520/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/221692",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 70,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 25.6,
+   "horas_completo": 64.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:07+00:00"
+ },
+ {
+  "id": 74,
+  "nombre": "Watch Dogs 2",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/447040/capsule_616x353.jpg?t=1751986887",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2016-11-15",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 12.5,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/447040/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 37.49,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/216759",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 75,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 16.2,
+   "horas_completo": 40.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:07+00:00"
+ },
+ {
+  "id": 75,
+  "nombre": "HITMAN World of Assassination",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1659040/8041389b81203fb346a83bc4f5b8389dd6fd7b96/capsule_616x353_alt_assets_15.jpg?t=1793706156",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-01-20",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 17.5,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1659040/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 52.49,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000248",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 88,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 19.1,
+   "horas_completo": 47.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:08+00:00"
+ },
+ {
+  "id": 76,
+  "nombre": "Control Ultimate Edition",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/870780/4276f1547eeda445312ef44655cf1b66c917a5e8/capsule_616x353.jpg?t=1781607969",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2019-08-27",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/870780/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/231819",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 70,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 44.4,
+   "horas_completo": 111.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:08+00:00"
+ },
+ {
+  "id": 77,
+  "nombre": "Batman: Arkham Knight",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/208650/capsule_616x353.jpg?t=1745534372",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2015-06-23",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 9.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/208650/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/200472",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 83,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 10.6,
+   "horas_completo": 26.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:09+00:00"
+ },
+ {
+  "id": 78,
+  "nombre": "Middle-earth: Shadow of War",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/356190/capsule_616x353.jpg?t=1780594801",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2017-10-10",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/356190/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/216695",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 72,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 33.3,
+   "horas_completo": 83.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:09+00:00"
+ },
+ {
+  "id": 79,
+  "nombre": "Mortal Kombat 1",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1971870/capsule_616x353.jpg?t=1778795130",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-09-19",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1971870/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 17.5,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10004911",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 78,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 56.4,
+   "horas_completo": 141.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:10+00:00"
+ },
+ {
+  "id": 80,
+  "nombre": "Mortal Kombat 11",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/976310/capsule_616x353.jpg?t=1780429525",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2019-04-23",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/976310/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/231756",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 67,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 45.9,
+   "horas_completo": 114.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:10+00:00"
+ },
+ {
+  "id": 81,
+  "nombre": "DOOM Eternal",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/782330/3efb12f884eaee39b4853721f5cf1c6e2b706495/capsule_616x353.jpg?t=1783432602",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2020-03-20",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 20.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/782330/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/232624",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 73,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 38.6,
+   "horas_completo": 96.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:11+00:00"
+ },
+ {
+  "id": 82,
+  "nombre": "DOOM (2016)",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/379720/capsule_616x353.jpg?t=1750784856",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2016-05-13",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/379720/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 5.0,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/201101",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 77,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 51.3,
+   "horas_completo": 128.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:11+00:00"
+ },
+ {
+  "id": 83,
+  "nombre": "Wolfenstein II: The New Colossus",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/612880/capsule_616x353.jpg?t=1750784115",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2017-10-27",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/612880/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 20.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/229533",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 76,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 44.0,
+   "horas_completo": 110.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:12+00:00"
+ },
+ {
+  "id": 84,
+  "nombre": "Prey",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/480490/6a64f5d795d1dec8fb29a27740052cc647159454/capsule_616x353.jpg?t=1784141088",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2017-05-05",
+  "precio_sugerido": 29.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 14.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/480490/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 29.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/224929",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 69,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 46.6,
+   "horas_completo": 116.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:12+00:00"
+ },
+ {
+  "id": 85,
+  "nombre": "Dishonored 2",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/403640/capsule_616x353.jpg?t=1750785918",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2016-11-11",
+  "precio_sugerido": 29.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 7.5,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/403640/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 29.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/201017",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 67,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 34.4,
+   "horas_completo": 86.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:13+00:00"
+ },
+ {
+  "id": 86,
+  "nombre": "Deathloop",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1252330/capsule_616x353.jpg?t=1750785409",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-09-14",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1252330/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000185",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 63,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 51.8,
+   "horas_completo": 129.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:13+00:00"
+ },
+ {
+  "id": 87,
+  "nombre": "The Outer Worlds",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/578650/capsule_616x353.jpg?t=1779901907",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2019-10-25",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/578650/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/232817",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 61,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 39.7,
+   "horas_completo": 99.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:14+00:00"
+ },
+ {
+  "id": 88,
+  "nombre": "Borderlands 3",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/397540/capsule_616x353.jpg?t=1793288452",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2019-09-13",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/397540/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/227478",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 84,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 54.0,
+   "horas_completo": 135.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:14+00:00"
+ },
+ {
+  "id": 89,
+  "nombre": "Tiny Tina's Wonderlands",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1286680/capsule_616x353.jpg?t=1737970341",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-03-25",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1286680/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000818",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 67,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 37.3,
+   "horas_completo": 93.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:15+00:00"
+ },
+ {
+  "id": 90,
+  "nombre": "Armored Core VI: Fires of Rubicon",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1888160/capsule_616x353.jpg?t=1748630736",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-08-25",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1888160/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/product/UP0700-PPSA06774_00-ARMOREDCORE60000",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 79,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 38.1,
+   "horas_completo": 95.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:15+00:00"
+ },
+ {
+  "id": 91,
+  "nombre": "Black Myth: Wukong",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358720/f40ef565c380c617020e559b4b4b089edd93ec09/capsule_616x353.jpg?t=1760601605",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-08-20",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2358720/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10007144",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 87,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 7.6,
+   "horas_completo": 19.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:16+00:00"
+ },
+ {
+  "id": 92,
+  "nombre": "Cult of the Lamb",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/cb5ff4e1c40adac0ea71aace62c3020a25f29d50/capsule_616x353.jpg?t=1786554901",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-08-11",
+  "precio_sugerido": 24.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 18.74,
+    "precio_regular": 24.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1313140/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 18.74,
+    "precio_regular": 24.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10004484",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 93,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 10.4,
+   "horas_completo": 26.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:16+00:00"
+ },
+ {
+  "id": 93,
+  "nombre": "Vampire Survivors",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1794680/2a912933d59d324eab01a98309d0f66e4ae36042/capsule_616x353.jpg?t=1787911678",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-10-20",
+  "precio_sugerido": 4.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 1.25,
+    "precio_regular": 4.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1794680/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 4.99,
+    "precio_regular": 4.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10010458",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 90,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 29.5,
+   "horas_completo": 73.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:17+00:00"
+ },
+ {
+  "id": 94,
+  "nombre": "Terraria",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/capsule_616x353.jpg?t=1792530636",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2011-05-16",
+  "precio_sugerido": 9.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 2.5,
+    "precio_regular": 9.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/105600/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 7.49,
+    "precio_regular": 9.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/205080",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 96,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 48.4,
+   "horas_completo": 121.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:17+00:00"
+ },
+ {
+  "id": 95,
+  "nombre": "No Man's Sky",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/275850/25ac8e11e488e3cc996dbfe32055ba4e2d3382f9/capsule_616x353_alt_assets_26.jpg?t=1793196605",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2016-08-09",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/275850/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/216600",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 64,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 7.6,
+   "horas_completo": 19.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:18+00:00"
+ },
+ {
+  "id": 96,
+  "nombre": "Subnautica",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/264710/capsule_616x353.jpg?t=1777456112",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2018-01-23",
+  "precio_sugerido": 29.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 22.49,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/264710/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 29.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/232883",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 72,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 30.3,
+   "horas_completo": 75.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:18+00:00"
+ },
+ {
+  "id": 97,
+  "nombre": "Untitled Goose Game",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/837470/capsule_616x353.jpg?t=1699052664",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2019-09-20",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/837470/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 9.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000039",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 70,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 12.5,
+   "horas_completo": 31.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:19+00:00"
+ },
+ {
+  "id": 98,
+  "nombre": "Overcooked! 2",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/728880/d589548e5ab1c6fdbe74875dc558d14488399bd3/capsule_616x353.jpg?t=1789548883",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2018-08-07",
+  "precio_sugerido": 24.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 6.25,
+    "precio_regular": 24.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/728880/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 6.25,
+    "precio_regular": 24.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/231121",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 81,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 40.4,
+   "horas_completo": 101.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:19+00:00"
+ },
+ {
+  "id": 99,
+  "nombre": "Kena: Bridge of Spirits",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1954200/capsule_616x353.jpg?t=1772142684",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-09-21",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1954200/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10001235",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 71,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 29.4,
+   "horas_completo": 73.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:20+00:00"
+ },
+ {
+  "id": 100,
+  "nombre": "Stray",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1332010/94e19833195fc64a648d15bfb3404b953e5845cb/capsule_616x353.jpg?t=1785424330",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-07-19",
+  "precio_sugerido": 29.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 7.5,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1332010/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 22.49,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10001114",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 93,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 48.4,
+   "horas_completo": 121.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:20+00:00"
+ },
+ {
+  "id": 101,
+  "nombre": "Sea of Stars",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1244090/bf4ef234fc768152c33f037d2f3d5b68fe96b42d/capsule_616x353.jpg?t=1780931183",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-08-29",
+  "precio_sugerido": 34.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 34.99,
+    "precio_regular": 34.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1244090/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 17.5,
+    "precio_regular": 34.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10004226",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 92,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 15.0,
+   "horas_completo": 37.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:21+00:00"
+ },
+ {
+  "id": 102,
+  "nombre": "Octopath Traveler II",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1971650/capsule_616x353.jpg?t=1788247720",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-02-24",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1971650/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10005126",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 80,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 32.8,
+   "horas_completo": 82.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:21+00:00"
+ },
+ {
+  "id": 103,
+  "nombre": "Sonic Frontiers",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1237320/capsule_616x353.jpg?t=1783493175",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-11-08",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1237320/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10002956",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 63,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 54.2,
+   "horas_completo": 135.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:22+00:00"
+ },
+ {
+  "id": 104,
+  "nombre": "Sonic Mania",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/584400/capsule_616x353.jpg?t=1785856230",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2017-08-15",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 9.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/584400/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 14.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/227227",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 83,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 50.8,
+   "horas_completo": 127.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:22+00:00"
+ },
+ {
+  "id": 105,
+  "nombre": "Yakuza 0",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/638970/capsule_616x353.jpg?t=1765476042",
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2017-01-24",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 9.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/638970/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 9.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/203727",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 81,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 51.2,
+   "horas_completo": 128.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:23+00:00"
+ },
+ {
+  "id": 106,
+  "nombre": "Like a Dragon: Infinite Wealth",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2072450/capsule_616x353.jpg?t=1781262996",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-01-26",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 17.5,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2072450/",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 34.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10004462",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 81,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 29.6,
+   "horas_completo": 74.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:23+00:00"
+ },
+ {
+  "id": 107,
+  "nombre": "Judgment",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2058180/capsule_616x353.jpg?t=1781263750",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2019-06-25",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2058180/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 10.0,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/232859",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 67,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 55.7,
+   "horas_completo": 139.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:24+00:00"
+ },
+ {
+  "id": 108,
+  "nombre": "Ghostwire: Tokyo",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1475810/capsule_616x353.jpg?t=1750779600",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-03-25",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1475810/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10000301",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 72,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 22.7,
+   "horas_completo": 56.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:24+00:00"
+ },
+ {
+  "id": 109,
+  "nombre": "Dying Light 2 Stay Human",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/534380/bb99b9529e0585181f0c09fa6b9eff324dba0675/capsule_616x353.jpg?t=1793884576",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-02-04",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/534380/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/232374",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 82,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 32.5,
+   "horas_completo": 81.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:25+00:00"
+ },
+ {
+  "id": 110,
+  "nombre": "Dead Space",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1693980/capsule_616x353.jpg?t=1777396576",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-01-27",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1693980/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10002958",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 97,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 52.5,
+   "horas_completo": 131.2,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:25+00:00"
+ },
+ {
+  "id": 111,
+  "nombre": "The Callisto Protocol",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1544020/capsule_616x353.jpg?t=1760331403",
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-12-02",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1544020/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 44.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10002652",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 73,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 8.8,
+   "horas_completo": 22.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:26+00:00"
+ },
+ {
+  "id": 112,
+  "nombre": "Lords of the Fallen",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1501750/24c3e0cdf4b16a197b3e1c725091be18abdcef7e/capsule_616x353.jpg?t=1792592985",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-10-13",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 30.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1501750/",
+    "en_oferta": true,
+    "descuento_pct": 50,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 15.0,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10002848",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 72,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 48.8,
+   "horas_completo": 122.0,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:26+00:00"
+ },
+ {
+  "id": 113,
+  "nombre": "Kingdom Come: Deliverance II",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1771300/bcad55593058f54e54aee8b6714220e216cf9b0c/capsule_616x353.jpg?t=1777975568",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2025-02-04",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1771300/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10006210",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 96,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 35.9,
+   "horas_completo": 89.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:27+00:00"
+ },
+ {
+  "id": 114,
+  "nombre": "Clair Obscur: Expedition 33",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1903340/eccd7fa054e32bed3213fb92f6089bebd9978215/capsule_616x353.jpg?t=1793903997",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2025-04-24",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 37.49,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1903340/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 12.5,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/product/EP7579-PPSA17599_00-EXP33000000PS5EU",
+    "en_oferta": true,
+    "descuento_pct": 75,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 60,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 35.9,
+   "horas_completo": 89.8,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:27+00:00"
+ },
+ {
+  "id": 115,
+  "nombre": "Silent Hill 2",
+  "imagen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124490/capsule_616x353.jpg?t=1744248682",
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-10-08",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2124490/",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   },
+   {
+    "tienda": "PlayStation Store",
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/product/UP0101-PPSA08710_00-MAINGAME00000000",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "ok": true
+   }
+  ],
+  "metacritic": {
+   "score": 60,
+   "ok": true
+  },
+  "hltb": {
+   "horas_main": 17.8,
+   "horas_completo": 44.5,
+   "ok": true
+  },
+  "ultima_actualizacion": "2026-11-08T19:00:28+00:00"
+ }
+]
