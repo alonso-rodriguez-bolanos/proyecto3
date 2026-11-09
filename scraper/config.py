@@ -46,6 +46,7 @@ ENCABEZADOS = {
 LIMITES_SITIO = {
     "steam": (int(_num("LIM_STEAM", 4)), _num("PAUSA_STEAM", 0.3)),
     "psstore": (int(_num("LIM_PSSTORE", 3)), _num("PAUSA_PSSTORE", 0.5)),
+    "xbox": (int(_num("LIM_XBOX", 2)), _num("PAUSA_XBOX", 0.5)),
     "metacritic": (int(_num("LIM_METACRITIC", 3)), _num("PAUSA_METACRITIC", 0.5)),
     "hltb": (int(_num("LIM_HLTB", 3)), _num("PAUSA_HLTB", 0.5)),
     "supabase": (2, 0.0),

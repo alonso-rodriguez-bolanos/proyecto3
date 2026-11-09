@@ -21,6 +21,7 @@ python ejecutar.py                     # con los scrapers reales
 python ejecutar.py --falsos            # con los scrapers de prueba
 python ejecutar.py --workers 8         # cantidad de procesos
 python ejecutar.py --secuencial        # versión de referencia
+python -m scraper.tiendas 5            # prueba las tiendas reales con los primeros 5 juegos del CSV
 python -m unittest discover -s pruebas # pruebas
 ```
 
