@@ -15,35 +15,34 @@
     "tienda": "Steam",
     "precio_actual": 24.99,
     "precio_regular": 24.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1145360/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 6.25,
+    "precio_actual": 24.99,
     "precio_regular": 24.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002648",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 79,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 37.8,
-   "horas_completo": 94.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:31+00:00"
+  "ultima_actualizacion": "2026-11-15T18:32:58+00:00"
  },
  {
   "id": 2,
@@ -55,41 +54,40 @@
    "PS5"
   ],
   "fecha_lanzamiento": "2015-05-19",
-  "precio_sugerido": 39.99,
+  "precio_sugerido": 49.99,
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 10.0,
-    "precio_regular": 39.99,
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/292030/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 20.0,
-    "precio_regular": 39.99,
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/204794",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 97,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 20.0,
-   "horas_completo": 50.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:31+00:00"
+  "ultima_actualizacion": "2026-11-15T18:32:58+00:00"
  },
  {
   "id": 3,
@@ -106,35 +104,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1174180/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/209441",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 97,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 28.3,
-   "horas_completo": 70.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:32+00:00"
+  "ultima_actualizacion": "2026-11-15T18:32:59+00:00"
  },
  {
   "id": 4,
@@ -150,37 +147,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 22.49,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
-    "url": "https://store.steampowered.com/app/271590/",
-    "en_oferta": true,
-    "descuento_pct": 25,
+    "url": "https://store.steampowered.com/app/3240220/",
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 22.49,
-    "precio_regular": 29.99,
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/product/UP1004-PPSA03420_00-GTAVCROSSGENBUND",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 64,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 13.9,
-   "horas_completo": 34.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:32+00:00"
+  "ultima_actualizacion": "2026-11-15T18:32:59+00:00"
  },
  {
   "id": 5,
@@ -197,35 +193,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1091500/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 59.99,
-    "precio_regular": 59.99,
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/234567",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 78,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 32.9,
-   "horas_completo": 82.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:33+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:00+00:00"
  },
  {
   "id": 6,
@@ -243,35 +238,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1245620/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 44.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000333",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 71,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 49.6,
-   "horas_completo": 124.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:33+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:00+00:00"
  },
  {
   "id": 7,
@@ -286,37 +280,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 30.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/374320/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 30.0,
+    "precio_actual": 29.99,
     "precio_regular": 59.99,
-    "formato": "Digital",
-    "plataforma": "PS5",
-    "url": "https://store.playstation.com/en-us/concept/201190",
     "en_oferta": true,
     "descuento_pct": 50,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/201190",
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 87,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 19.2,
-   "horas_completo": 48.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:34+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:01+00:00"
  },
  {
   "id": 8,
@@ -331,37 +324,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 30.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/814380/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
-    "formato": "Digital",
-    "plataforma": "PS5",
-    "url": "https://store.playstation.com/en-us/concept/232898",
     "en_oferta": false,
     "descuento_pct": 0,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/232898",
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 74,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 41.1,
-   "horas_completo": 102.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:34+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:01+00:00"
  },
  {
   "id": 9,
@@ -378,35 +370,34 @@
     "tienda": "Steam",
     "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1593500/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 49.99,
-    "precio_regular": 49.99,
+    "precio_actual": 9.99,
+    "precio_regular": 19.99,
+    "en_oferta": true,
+    "descuento_pct": 50,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/227770",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 67,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 8.2,
-   "horas_completo": 20.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:35+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:02+00:00"
  },
  {
   "id": 10,
@@ -424,35 +415,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2322010/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 30.0,
-    "precio_regular": 59.99,
+    "precio_actual": 29.39,
+    "precio_regular": 69.99,
+    "en_oferta": true,
+    "descuento_pct": 58,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10001850",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 96,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 28.3,
-   "horas_completo": 70.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:35+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:02+00:00"
  },
  {
   "id": 11,
@@ -467,37 +457,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 15.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1817070/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 30.0,
-    "precio_regular": 59.99,
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000762",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 69,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 48.1,
-   "horas_completo": 120.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:36+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:03+00:00"
  },
  {
   "id": 12,
@@ -515,35 +504,34 @@
     "tienda": "Steam",
     "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1817190/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000649",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 96,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 12.5,
-   "horas_completo": 31.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:36+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:04+00:00"
  },
  {
   "id": 13,
@@ -558,37 +546,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 69.99,
-    "precio_regular": 69.99,
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2651280/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 34.99,
+    "precio_actual": 69.99,
     "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002456",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 69,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 21.0,
-   "horas_completo": 52.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:37+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:06+00:00"
  },
  {
   "id": 14,
@@ -603,37 +590,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 37.49,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2561580/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 49.99,
+    "precio_actual": 20.99,
     "precio_regular": 49.99,
+    "en_oferta": true,
+    "descuento_pct": 58,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/221727",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 72,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 33.3,
-   "horas_completo": 83.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:37+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:04+00:00"
  },
  {
   "id": 15,
@@ -648,37 +634,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 15.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2420110/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 59.99,
-    "precio_regular": 59.99,
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000886",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 97,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 43.1,
-   "horas_completo": 107.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:38+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:06+00:00"
  },
  {
   "id": 16,
@@ -694,37 +679,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 30.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2215430/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
-    "precio_regular": 59.99,
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/235227",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 79,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 22.1,
-   "horas_completo": 55.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:38+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:06+00:00"
  },
  {
   "id": 17,
@@ -739,37 +723,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 44.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1888930/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
-    "precio_regular": 59.99,
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002694",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 90,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 25.3,
-   "horas_completo": 63.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:39+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:07+00:00"
  },
  {
   "id": 18,
@@ -786,35 +769,34 @@
     "tienda": "Steam",
     "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2531310/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/230079",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 80,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 51.0,
-   "horas_completo": 127.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:39+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:07+00:00"
  },
  {
   "id": 19,
@@ -831,35 +813,34 @@
     "tienda": "Steam",
     "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1659420/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 25.0,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/205354",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 65,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 10.7,
-   "horas_completo": 26.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:40+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:08+00:00"
  },
  {
   "id": 20,
@@ -874,37 +855,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 49.99,
-    "precio_regular": 49.99,
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1259420/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 12.5,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/229018",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 74,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 39.6,
-   "horas_completo": 99.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:40+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:09+00:00"
  },
  {
   "id": 21,
@@ -919,37 +899,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 29.99,
-    "precio_regular": 39.99,
+    "precio_actual": 9.99,
+    "precio_regular": 9.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1850570/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 29.99,
-    "precio_regular": 39.99,
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/234585",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 92,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 17.6,
-   "horas_completo": 44.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:41+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:09+00:00"
  },
  {
   "id": 22,
@@ -964,37 +943,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 44.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1649240/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
-    "precio_regular": 59.99,
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000176",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 61,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 21.3,
-   "horas_completo": 53.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:41+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:09+00:00"
  },
  {
   "id": 23,
@@ -1009,37 +987,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 44.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1895880/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 44.99,
-    "precio_regular": 59.99,
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000669",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 85,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 40.8,
-   "horas_completo": 102.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:42+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:10+00:00"
  },
  {
   "id": 24,
@@ -1055,37 +1032,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 44.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1599660/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 44.99,
+    "precio_actual": 25.19,
     "precio_regular": 59.99,
+    "en_oferta": true,
+    "descuento_pct": 58,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000177",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 79,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 58.9,
-   "horas_completo": 147.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:42+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:10+00:00"
  },
  {
   "id": 25,
@@ -1100,37 +1076,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 10.0,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/553850/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 20.0,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000657",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 80,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 36.1,
-   "horas_completo": 90.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:43+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:11+00:00"
  },
  {
   "id": 26,
@@ -1145,37 +1120,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 15.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/3489700/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 59.99,
-    "precio_regular": 59.99,
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10006891",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 63,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 5.6,
-   "horas_completo": 14.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:43+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:11+00:00"
  },
  {
   "id": 27,
@@ -1190,37 +1164,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 17.5,
-    "precio_regular": 69.99,
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1340990/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 34.99,
+    "precio_actual": 29.39,
     "precio_regular": 69.99,
+    "en_oferta": true,
+    "descuento_pct": 58,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10003386",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 67,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 26.9,
-   "horas_completo": 67.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:44+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:12+00:00"
  },
  {
   "id": 28,
@@ -1237,35 +1210,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1086940/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 44.99,
-    "precio_regular": 59.99,
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10007460",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 81,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 46.7,
-   "horas_completo": 116.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:44+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:12+00:00"
  },
  {
   "id": 29,
@@ -1280,37 +1252,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 10.0,
+    "precio_actual": 7.99,
     "precio_regular": 39.99,
+    "en_oferta": true,
+    "descuento_pct": 80,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/489830/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 39.99,
+    "precio_actual": 7.99,
     "precio_regular": 39.99,
+    "en_oferta": true,
+    "descuento_pct": 80,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/230955",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 82,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 25.0,
-   "horas_completo": 62.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:45+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:13+00:00"
  },
  {
   "id": 30,
@@ -1328,35 +1299,34 @@
     "tienda": "Steam",
     "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/377160/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/201511",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 80,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 48.1,
-   "horas_completo": 120.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:45+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:13+00:00"
  },
  {
   "id": 31,
@@ -1374,35 +1344,34 @@
     "tienda": "Steam",
     "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2050650/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 39.99,
-    "precio_regular": 39.99,
-    "formato": "Digital",
-    "plataforma": "PS5",
-    "url": "https://store.playstation.com/en-us/concept/232114",
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
     "en_oferta": false,
     "descuento_pct": 0,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/232114",
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 78,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 37.3,
-   "horas_completo": 93.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:46+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:14+00:00"
  },
  {
   "id": 32,
@@ -1420,35 +1389,34 @@
     "tienda": "Steam",
     "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/883710/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 29.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/229500",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 70,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 34.2,
-   "horas_completo": 85.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:46+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:14+00:00"
  },
  {
   "id": 33,
@@ -1466,35 +1434,34 @@
     "tienda": "Steam",
     "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/952060/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/233069",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 67,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 56.2,
-   "horas_completo": 140.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:47+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:15+00:00"
  },
  {
   "id": 34,
@@ -1512,35 +1479,34 @@
     "tienda": "Steam",
     "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1196590/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 29.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/235235",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 74,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 46.6,
-   "horas_completo": 116.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:47+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:16+00:00"
  },
  {
   "id": 35,
@@ -1558,35 +1524,34 @@
     "tienda": "Steam",
     "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/418370/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 5.0,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/220037",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 94,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 41.6,
-   "horas_completo": 104.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:48+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:16+00:00"
  },
  {
   "id": 36,
@@ -1601,37 +1566,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 14.99,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/582010/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 14.99,
-    "precio_regular": 29.99,
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/228785",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 75,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 16.0,
-   "horas_completo": 40.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:48+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:16+00:00"
  },
  {
   "id": 37,
@@ -1647,37 +1611,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 10.0,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1446780/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 20.0,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10005250",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 97,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 43.6,
-   "horas_completo": 109.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:49+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:17+00:00"
  },
  {
   "id": 38,
@@ -1692,37 +1655,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 69.99,
-    "precio_regular": 69.99,
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2246340/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 69.99,
-    "precio_regular": 69.99,
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10005176",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 86,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 6.0,
-   "horas_completo": 15.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:49+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:17+00:00"
  },
  {
   "id": 39,
@@ -1740,35 +1702,34 @@
     "tienda": "Steam",
     "precio_actual": 29.99,
     "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/601150/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 29.99,
-    "precio_regular": 29.99,
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/227315",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 79,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 27.6,
-   "horas_completo": 69.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:50+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:18+00:00"
  },
  {
   "id": 40,
@@ -1784,37 +1745,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 30.0,
-    "precio_regular": 59.99,
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1364780/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 44.99,
-    "precio_regular": 59.99,
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10001615",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 86,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 40.2,
-   "horas_completo": 100.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:50+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:18+00:00"
  },
  {
   "id": 41,
@@ -1829,37 +1789,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 69.99,
-    "precio_regular": 69.99,
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1778820/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 69.99,
-    "precio_regular": 69.99,
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10006270",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 63,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 42.0,
-   "horas_completo": 105.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:51+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:19+00:00"
  },
  {
   "id": 42,
@@ -1875,37 +1834,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 15.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1687950/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/234529",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 77,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 40.8,
-   "horas_completo": 102.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:51+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:20+00:00"
  },
  {
   "id": 43,
@@ -1921,37 +1879,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 52.49,
-    "precio_regular": 69.99,
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2161700/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 52.49,
-    "precio_regular": 69.99,
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10001555",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 80,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 11.4,
-   "horas_completo": 28.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:52+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:20+00:00"
  },
  {
   "id": 44,
@@ -1968,35 +1925,34 @@
     "tienda": "Steam",
     "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/524220/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 29.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/217551",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 94,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 38.9,
-   "horas_completo": 97.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:52+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:20+00:00"
  },
  {
   "id": 45,
@@ -2011,37 +1967,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 69.99,
-    "precio_regular": 69.99,
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1462040/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 69.99,
-    "precio_regular": 69.99,
+    "precio_actual": 7.99,
+    "precio_regular": 39.99,
+    "en_oferta": true,
+    "descuento_pct": 80,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/228744",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 82,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 19.7,
-   "horas_completo": 49.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:53+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:21+00:00"
  },
  {
   "id": 46,
@@ -2056,37 +2011,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 12.5,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2515020/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 12.5,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002100",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 60,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 39.3,
-   "horas_completo": 98.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:53+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:22+00:00"
  },
  {
   "id": 47,
@@ -2103,35 +2057,34 @@
     "tienda": "Steam",
     "precio_actual": 29.99,
     "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/359870/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 14.99,
-    "precio_regular": 29.99,
+    "precio_actual": 24.99,
+    "precio_regular": 24.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/201588",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 69,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 12.7,
-   "horas_completo": 31.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:54+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:22+00:00"
  },
  {
   "id": 48,
@@ -2146,37 +2099,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 10.0,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1295510/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 10.0,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/product/UP0082-CUSA18600_00-0000000000000000",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 63,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 41.6,
-   "horas_completo": 104.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:54+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:22+00:00"
  },
  {
   "id": 49,
@@ -2193,35 +2145,34 @@
     "tienda": "Steam",
     "precio_actual": 14.99,
     "precio_regular": 14.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/367520/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 14.99,
     "precio_regular": 14.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/product/UP1822-PPSA34970_00-HOLLOWKNIGHTPS50",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 71,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 54.4,
-   "horas_completo": 136.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:55+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:23+00:00"
  },
  {
   "id": 50,
@@ -2236,37 +2187,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 9.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/504230/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 19.99,
+    "precio_actual": 4.99,
     "precio_regular": 19.99,
+    "en_oferta": true,
+    "descuento_pct": 75,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/231477",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 81,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 21.9,
-   "horas_completo": 54.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:55+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:24+00:00"
  },
  {
   "id": 51,
@@ -2283,35 +2233,34 @@
     "tienda": "Steam",
     "precio_actual": 24.99,
     "precio_regular": 24.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/588650/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 24.99,
     "precio_regular": 24.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/231053",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 86,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 47.2,
-   "horas_completo": 118.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:56+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:24+00:00"
  },
  {
   "id": 52,
@@ -2326,37 +2275,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 3.75,
+    "precio_actual": 14.99,
     "precio_regular": 14.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/413150/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 14.99,
+    "precio_actual": 10.49,
     "precio_regular": 14.99,
+    "en_oferta": true,
+    "descuento_pct": 30,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/227229",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 97,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 23.0,
-   "horas_completo": 57.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:56+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:24+00:00"
  },
  {
   "id": 53,
@@ -2373,35 +2321,34 @@
     "tienda": "Steam",
     "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/268910/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/10001369",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 90,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 59.6,
-   "horas_completo": 149.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:57+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:25+00:00"
  },
  {
   "id": 54,
@@ -2416,37 +2363,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 19.99,
-    "precio_regular": 19.99,
+    "precio_actual": 24.99,
+    "precio_regular": 24.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/304430/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 19.99,
-    "precio_regular": 19.99,
-    "formato": "Digital",
-    "plataforma": "PS5",
-    "url": "https://store.playstation.com/en-us/concept/223663",
+    "precio_actual": 24.99,
+    "precio_regular": 24.99,
     "en_oferta": false,
     "descuento_pct": 0,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/223663",
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 96,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 30.6,
-   "horas_completo": 76.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:57+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:25+00:00"
  },
  {
   "id": 55,
@@ -2462,37 +2408,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 6.25,
+    "precio_actual": 24.99,
     "precio_regular": 24.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/753640/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 12.49,
+    "precio_actual": 24.99,
     "precio_regular": 24.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/229826",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 65,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 52.3,
-   "horas_completo": 130.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:58+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:26+00:00"
  },
  {
   "id": 56,
@@ -2508,37 +2453,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 29.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/632470/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 20.0,
+    "precio_actual": 9.99,
     "precio_regular": 39.99,
+    "en_oferta": true,
+    "descuento_pct": 75,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002292",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 66,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 27.9,
-   "horas_completo": 69.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:58+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:26+00:00"
  },
  {
   "id": 57,
@@ -2554,37 +2498,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 14.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/894020/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 14.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10003808",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 62,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 19.1,
-   "horas_completo": 47.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:59+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:27+00:00"
  },
  {
   "id": 58,
@@ -2600,37 +2543,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 22.49,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/553420/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 7.5,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002475",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 79,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 46.2,
-   "horas_completo": 115.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T18:59:59+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:27+00:00"
  },
  {
   "id": 59,
@@ -2646,37 +2588,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 20.0,
+    "precio_actual": 9.99,
     "precio_regular": 39.99,
+    "en_oferta": true,
+    "descuento_pct": 75,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2138710/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 39.99,
-    "precio_regular": 39.99,
+    "precio_actual": 37.89,
+    "precio_regular": 37.89,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10001973",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 90,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 37.6,
-   "horas_completo": 94.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:00+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:28+00:00"
  },
  {
   "id": 60,
@@ -2692,37 +2633,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 10.0,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1426210/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 29.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/234689",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 69,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 49.5,
-   "horas_completo": 123.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:00+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:28+00:00"
  },
  {
   "id": 61,
@@ -2739,35 +2679,34 @@
     "tienda": "Steam",
     "precio_actual": 29.99,
     "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1222700/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 7.5,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/227061",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 76,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 27.0,
-   "horas_completo": 67.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:01+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:29+00:00"
  },
  {
   "id": 62,
@@ -2782,37 +2721,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 25.0,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2001120/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10005449",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 78,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 49.1,
-   "horas_completo": 122.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:01+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:30+00:00"
  },
  {
   "id": 63,
@@ -2830,35 +2768,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1627720/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10006052",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 69,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 51.0,
-   "horas_completo": 127.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:02+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:30+00:00"
  },
  {
   "id": 64,
@@ -2874,37 +2811,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 15.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/990080/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
-    "precio_regular": 59.99,
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/232447",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 92,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 42.7,
-   "horas_completo": 106.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:02+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:31+00:00"
  },
  {
   "id": 65,
@@ -2921,35 +2857,34 @@
     "tienda": "Steam",
     "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1172380/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/232345",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 67,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 59.7,
-   "horas_completo": 149.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:03+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:31+00:00"
  },
  {
   "id": 66,
@@ -2964,37 +2899,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 34.99,
+    "precio_actual": 69.99,
     "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1774580/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 34.99,
+    "precio_actual": 69.99,
     "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10005114",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 95,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 7.1,
-   "horas_completo": 17.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:03+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:32+00:00"
  },
  {
   "id": 67,
@@ -3009,37 +2943,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 30.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1328670/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 44.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/10000606",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 83,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 46.5,
-   "horas_completo": 116.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:04+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:32+00:00"
  },
  {
   "id": 68,
@@ -3054,37 +2987,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 69.99,
-    "precio_regular": 69.99,
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1845910/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 52.49,
+    "precio_actual": 69.99,
     "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000586",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 79,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 55.7,
-   "horas_completo": 139.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:04+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:33+00:00"
  },
  {
   "id": 69,
@@ -3100,37 +3032,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 30.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2208920/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 30.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000237",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 67,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 14.6,
-   "horas_completo": 36.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:05+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:33+00:00"
  },
  {
   "id": 70,
@@ -3147,35 +3078,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/812140/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/229601",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 64,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 31.4,
-   "horas_completo": 78.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:05+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:34+00:00"
  },
  {
   "id": 71,
@@ -3191,37 +3121,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 12.5,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/3035570/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10004865",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 97,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 52.7,
-   "horas_completo": 131.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:06+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:34+00:00"
  },
  {
   "id": 72,
@@ -3237,37 +3166,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 15.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2369390/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/233961",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 82,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 27.5,
-   "horas_completo": 68.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:06+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:34+00:00"
  },
  {
   "id": 73,
@@ -3284,35 +3212,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/552520/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 30.0,
+    "precio_actual": 8.99,
     "precio_regular": 59.99,
-    "formato": "Digital",
-    "plataforma": "PS5",
-    "url": "https://store.playstation.com/en-us/concept/221692",
     "en_oferta": true,
-    "descuento_pct": 50,
+    "descuento_pct": 85,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/221692",
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 70,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 25.6,
-   "horas_completo": 64.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:07+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:36+00:00"
  },
  {
   "id": 74,
@@ -3327,37 +3254,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 12.5,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/447040/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 37.49,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/216759",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 75,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 16.2,
-   "horas_completo": 40.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:07+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:36+00:00"
  },
  {
   "id": 75,
@@ -3373,37 +3299,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 17.5,
-    "precio_regular": 69.99,
+    "precio_actual": 29.99,
+    "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1659040/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 52.49,
+    "precio_actual": 27.99,
     "precio_regular": 69.99,
+    "en_oferta": true,
+    "descuento_pct": 60,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000248",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 88,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 19.1,
-   "horas_completo": 47.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:08+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:36+00:00"
  },
  {
   "id": 76,
@@ -3421,35 +3346,34 @@
     "tienda": "Steam",
     "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/870780/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 39.99,
+    "precio_actual": 5.99,
     "precio_regular": 39.99,
+    "en_oferta": true,
+    "descuento_pct": 85,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/231819",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 70,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 44.4,
-   "horas_completo": 111.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:08+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:37+00:00"
  },
  {
   "id": 77,
@@ -3464,37 +3388,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 9.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/208650/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 19.99,
+    "precio_actual": 4.99,
     "precio_regular": 19.99,
+    "en_oferta": true,
+    "descuento_pct": 75,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/200472",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 83,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 10.6,
-   "horas_completo": 26.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:09+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:37+00:00"
  },
  {
   "id": 78,
@@ -3511,35 +3434,34 @@
     "tienda": "Steam",
     "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/356190/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 49.99,
     "precio_regular": 49.99,
-    "formato": "Digital",
-    "plataforma": "PS5",
-    "url": "https://store.playstation.com/en-us/concept/216695",
     "en_oferta": false,
     "descuento_pct": 0,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/216695",
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 72,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 33.3,
-   "horas_completo": 83.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:09+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:38+00:00"
  },
  {
   "id": 79,
@@ -3554,37 +3476,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 69.99,
-    "precio_regular": 69.99,
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1971870/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 17.5,
-    "precio_regular": 69.99,
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10004911",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 78,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 56.4,
-   "horas_completo": 141.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:10+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:38+00:00"
  },
  {
   "id": 80,
@@ -3601,35 +3522,34 @@
     "tienda": "Steam",
     "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/976310/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/231756",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 67,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 45.9,
-   "horas_completo": 114.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:10+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:39+00:00"
  },
  {
   "id": 81,
@@ -3645,37 +3565,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 20.0,
-    "precio_regular": 39.99,
+    "precio_actual": 29.99,
+    "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/782330/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 39.99,
-    "precio_regular": 39.99,
+    "precio_actual": 9.89,
+    "precio_regular": 29.99,
+    "en_oferta": true,
+    "descuento_pct": 67,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/232624",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 73,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 38.6,
-   "horas_completo": 96.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:11+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:39+00:00"
  },
  {
   "id": 82,
@@ -3692,35 +3611,34 @@
     "tienda": "Steam",
     "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/379720/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 5.0,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/201101",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 77,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 51.3,
-   "horas_completo": 128.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:11+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:40+00:00"
  },
  {
   "id": 83,
@@ -3737,35 +3655,34 @@
     "tienda": "Steam",
     "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/612880/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 20.0,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/229533",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 76,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 44.0,
-   "horas_completo": 110.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:12+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:40+00:00"
  },
  {
   "id": 84,
@@ -3780,37 +3697,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 14.99,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/480490/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 29.99,
     "precio_regular": 29.99,
-    "formato": "Digital",
-    "plataforma": "PS5",
-    "url": "https://store.playstation.com/en-us/concept/224929",
     "en_oferta": false,
     "descuento_pct": 0,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/224929",
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 69,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 46.6,
-   "horas_completo": 116.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:12+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:41+00:00"
  },
  {
   "id": 85,
@@ -3825,37 +3741,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 7.5,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/403640/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 29.99,
     "precio_regular": 29.99,
-    "formato": "Digital",
-    "plataforma": "PS5",
-    "url": "https://store.playstation.com/en-us/concept/201017",
     "en_oferta": false,
     "descuento_pct": 0,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/201017",
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 67,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 34.4,
-   "horas_completo": 86.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:13+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:42+00:00"
  },
  {
   "id": 86,
@@ -3872,35 +3787,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1252330/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 30.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000185",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 63,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 51.8,
-   "horas_completo": 129.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:13+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:45+00:00"
  },
  {
   "id": 87,
@@ -3914,38 +3828,32 @@
   "precio_sugerido": 59.99,
   "tiendas": [
    {
+    "ok": false,
+    "error": "SinPrecio: no está a la venta en Steam",
     "tienda": "Steam",
-    "precio_actual": 15.0,
-    "precio_regular": 59.99,
-    "formato": "Digital",
-    "plataforma": "PC",
-    "url": "https://store.steampowered.com/app/578650/",
-    "en_oferta": true,
-    "descuento_pct": 75,
-    "ok": true
+    "url": "https://store.steampowered.com/app/578650/"
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 59.99,
-    "precio_regular": 59.99,
-    "formato": "Digital",
-    "plataforma": "PS5",
-    "url": "https://store.playstation.com/en-us/concept/232817",
+    "precio_actual": 24.99,
+    "precio_regular": 24.99,
     "en_oferta": false,
     "descuento_pct": 0,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/232817",
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 61,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 39.7,
-   "horas_completo": 99.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:14+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:42+00:00"
  },
  {
   "id": 88,
@@ -3961,37 +3869,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 15.0,
+    "precio_actual": 5.99,
     "precio_regular": 59.99,
+    "en_oferta": true,
+    "descuento_pct": 90,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/397540/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/227478",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 84,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 54.0,
-   "horas_completo": 135.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:14+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:43+00:00"
  },
  {
   "id": 89,
@@ -4007,37 +3914,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 30.0,
-    "precio_regular": 59.99,
+    "precio_actual": 5.99,
+    "precio_regular": 29.99,
+    "en_oferta": true,
+    "descuento_pct": 80,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1286680/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
-    "precio_regular": 59.99,
+    "precio_actual": 29.99,
+    "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000818",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 67,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 37.3,
-   "horas_completo": 93.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:15+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:43+00:00"
  },
  {
   "id": 90,
@@ -4055,35 +3961,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1888160/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/product/UP0700-PPSA06774_00-ARMOREDCORE60000",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 79,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 38.1,
-   "horas_completo": 95.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:15+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:45+00:00"
  },
  {
   "id": 91,
@@ -4100,35 +4005,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2358720/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 30.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10007144",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 87,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 7.6,
-   "horas_completo": 19.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:16+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:44+00:00"
  },
  {
   "id": 92,
@@ -4144,37 +4048,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 18.74,
+    "precio_actual": 24.99,
     "precio_regular": 24.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1313140/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 18.74,
-    "precio_regular": 24.99,
+    "precio_actual": 24.09,
+    "precio_regular": 24.09,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10004484",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 93,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 10.4,
-   "horas_completo": 26.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:16+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:45+00:00"
  },
  {
   "id": 93,
@@ -4190,37 +4093,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 1.25,
+    "precio_actual": 4.99,
     "precio_regular": 4.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1794680/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 4.99,
     "precio_regular": 4.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10010458",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 90,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 29.5,
-   "horas_completo": 73.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:17+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:46+00:00"
  },
  {
   "id": 94,
@@ -4235,37 +4137,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 2.5,
+    "precio_actual": 9.99,
     "precio_regular": 9.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/105600/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 7.49,
-    "precio_regular": 9.99,
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/205080",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 96,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 48.4,
-   "horas_completo": 121.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:17+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:47+00:00"
  },
  {
   "id": 95,
@@ -4281,37 +4182,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 30.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/275850/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/216600",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 64,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 7.6,
-   "horas_completo": 19.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:18+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:47+00:00"
  },
  {
   "id": 96,
@@ -4327,37 +4227,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 22.49,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/264710/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 29.99,
+    "precio_actual": 7.49,
     "precio_regular": 29.99,
+    "en_oferta": true,
+    "descuento_pct": 75,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/232883",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 72,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 30.3,
-   "horas_completo": 75.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:18+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:48+00:00"
  },
  {
   "id": 97,
@@ -4374,35 +4273,34 @@
     "tienda": "Steam",
     "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/837470/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.99,
+    "precio_actual": 7.99,
     "precio_regular": 19.99,
-    "formato": "Digital",
-    "plataforma": "PS5",
-    "url": "https://store.playstation.com/en-us/concept/10000039",
     "en_oferta": true,
-    "descuento_pct": 50,
+    "descuento_pct": 60,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/10000039",
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 70,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 12.5,
-   "horas_completo": 31.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:19+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:48+00:00"
  },
  {
   "id": 98,
@@ -4417,37 +4315,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 6.25,
+    "precio_actual": 8.49,
     "precio_regular": 24.99,
+    "en_oferta": true,
+    "descuento_pct": 66,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/728880/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 6.25,
+    "precio_actual": 8.49,
     "precio_regular": 24.99,
-    "formato": "Digital",
-    "plataforma": "PS5",
-    "url": "https://store.playstation.com/en-us/concept/231121",
     "en_oferta": true,
-    "descuento_pct": 75,
+    "descuento_pct": 66,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/231121",
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 81,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 40.4,
-   "horas_completo": 101.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:19+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:48+00:00"
  },
  {
   "id": 99,
@@ -4465,35 +4362,34 @@
     "tienda": "Steam",
     "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1954200/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 39.99,
+    "precio_actual": 15.99,
     "precio_regular": 39.99,
+    "en_oferta": true,
+    "descuento_pct": 60,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10001235",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 71,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 29.4,
-   "horas_completo": 73.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:20+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:49+00:00"
  },
  {
   "id": 100,
@@ -4509,37 +4405,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 7.5,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1332010/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 22.49,
+    "precio_actual": 14.99,
     "precio_regular": 29.99,
+    "en_oferta": true,
+    "descuento_pct": 50,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10001114",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 93,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 48.4,
-   "horas_completo": 121.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:20+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:49+00:00"
  },
  {
   "id": 101,
@@ -4557,35 +4452,34 @@
     "tienda": "Steam",
     "precio_actual": 34.99,
     "precio_regular": 34.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1244090/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 17.5,
+    "precio_actual": 34.99,
     "precio_regular": 34.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10004226",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 92,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 15.0,
-   "horas_completo": 37.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:21+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:50+00:00"
  },
  {
   "id": 102,
@@ -4601,37 +4495,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 44.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1971650/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10005126",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 80,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 32.8,
-   "horas_completo": 82.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:21+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:50+00:00"
  },
  {
   "id": 103,
@@ -4647,37 +4540,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 15.0,
-    "precio_regular": 59.99,
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1237320/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
-    "precio_regular": 59.99,
+    "precio_actual": 39.99,
+    "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002956",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 63,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 54.2,
-   "horas_completo": 135.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:22+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:51+00:00"
  },
  {
   "id": 104,
@@ -4692,37 +4584,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 9.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/584400/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 14.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
-    "plataforma": "PS5",
+    "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/227227",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 83,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 50.8,
-   "horas_completo": 127.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:22+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:51+00:00"
  },
  {
   "id": 105,
@@ -4736,38 +4627,27 @@
   "precio_sugerido": 19.99,
   "tiendas": [
    {
+    "ok": false,
+    "error": "SinPrecio: no está a la venta en Steam",
     "tienda": "Steam",
-    "precio_actual": 9.99,
-    "precio_regular": 19.99,
-    "formato": "Digital",
-    "plataforma": "PC",
-    "url": "https://store.steampowered.com/app/638970/",
-    "en_oferta": true,
-    "descuento_pct": 50,
-    "ok": true
+    "url": "https://store.steampowered.com/app/638970/"
    },
    {
+    "ok": false,
+    "error": "SinPrecio: PS Store no lo vende: Announced",
     "tienda": "PlayStation Store",
-    "precio_actual": 9.99,
-    "precio_regular": 19.99,
-    "formato": "Digital",
-    "plataforma": "PS5",
-    "url": "https://store.playstation.com/en-us/concept/203727",
-    "en_oferta": true,
-    "descuento_pct": 50,
-    "ok": true
+    "url": "https://store.playstation.com/en-us/concept/203727"
    }
   ],
   "metacritic": {
-   "score": 81,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 51.2,
-   "horas_completo": 128.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:23+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:52+00:00"
  },
  {
   "id": 106,
@@ -4783,37 +4663,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 17.5,
+    "precio_actual": 69.99,
     "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2072450/",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 34.99,
+    "precio_actual": 69.99,
     "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10004462",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 81,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 29.6,
-   "horas_completo": 74.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:23+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:52+00:00"
  },
  {
   "id": 107,
@@ -4831,35 +4710,34 @@
     "tienda": "Steam",
     "precio_actual": 39.99,
     "precio_regular": 39.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2058180/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 10.0,
+    "precio_actual": 9.99,
     "precio_regular": 39.99,
+    "en_oferta": true,
+    "descuento_pct": 75,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/232859",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 67,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 55.7,
-   "horas_completo": 139.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:24+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:53+00:00"
  },
  {
   "id": 108,
@@ -4876,35 +4754,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1475810/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000301",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 72,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 22.7,
-   "horas_completo": 56.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:24+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:54+00:00"
  },
  {
   "id": 109,
@@ -4920,37 +4797,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 30.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/534380/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 44.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/232374",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 82,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 32.5,
-   "horas_completo": 81.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:25+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:54+00:00"
  },
  {
   "id": 110,
@@ -4965,37 +4841,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 30.0,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1693980/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
-    "precio_regular": 59.99,
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002958",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 97,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 52.5,
-   "horas_completo": 131.2,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:25+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:54+00:00"
  },
  {
   "id": 111,
@@ -5013,35 +4888,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1544020/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 44.99,
-    "precio_regular": 59.99,
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002652",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 73,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 8.8,
-   "horas_completo": 22.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:26+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:55+00:00"
  },
  {
   "id": 112,
@@ -5056,37 +4930,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 30.0,
-    "precio_regular": 59.99,
+    "precio_actual": 29.99,
+    "precio_regular": 29.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1501750/",
-    "en_oferta": true,
-    "descuento_pct": 50,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.0,
+    "precio_actual": 0.0,
     "precio_regular": 59.99,
+    "en_oferta": true,
+    "descuento_pct": 100,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002848",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 72,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 48.8,
-   "horas_completo": 122.0,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:26+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:55+00:00"
  },
  {
   "id": 113,
@@ -5103,35 +4976,34 @@
     "tienda": "Steam",
     "precio_actual": 59.99,
     "precio_regular": 59.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1771300/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 59.99,
-    "precio_regular": 59.99,
+    "precio_actual": 81.29,
+    "precio_regular": 81.29,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10006210",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 96,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 35.9,
-   "horas_completo": 89.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:27+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:56+00:00"
  },
  {
   "id": 114,
@@ -5146,37 +5018,36 @@
   "tiendas": [
    {
     "tienda": "Steam",
-    "precio_actual": 37.49,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/1903340/",
-    "en_oferta": true,
-    "descuento_pct": 25,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 12.5,
-    "precio_regular": 49.99,
+    "precio_actual": 45.19,
+    "precio_regular": 45.19,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/product/EP7579-PPSA17599_00-EXP33000000PS5EU",
-    "en_oferta": true,
-    "descuento_pct": 75,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 60,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 35.9,
-   "horas_completo": 89.8,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:27+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:57+00:00"
  },
  {
   "id": 115,
@@ -5193,34 +5064,33 @@
     "tienda": "Steam",
     "precio_actual": 69.99,
     "precio_regular": 69.99,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PC",
     "url": "https://store.steampowered.com/app/2124490/",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 69.99,
+    "precio_actual": 19.59,
     "precio_regular": 69.99,
+    "en_oferta": true,
+    "descuento_pct": 72,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/product/UP0101-PPSA08710_00-MAINGAME00000000",
-    "en_oferta": false,
-    "descuento_pct": 0,
     "ok": true
    }
   ],
   "metacritic": {
-   "score": 60,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
   "hltb": {
-   "horas_main": 17.8,
-   "horas_completo": 44.5,
-   "ok": true
+   "ok": false,
+   "error": "scraper no disponible"
   },
-  "ultima_actualizacion": "2026-11-08T19:00:28+00:00"
+  "ultima_actualizacion": "2026-11-15T18:33:57+00:00"
  }
 ]
