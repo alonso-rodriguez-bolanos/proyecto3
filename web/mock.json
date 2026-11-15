@@ -1,0 +1,454 @@
+[
+ {
+  "id": 1,
+  "nombre": "Reino de Ceniza",
+  "imagen": null,
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2023-03-14",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "ok": true,
+    "precio_actual": 29.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/1/",
+    "en_oferta": true,
+    "descuento_pct": 50
+   },
+   {
+    "tienda": "PlayStation Store",
+    "ok": true,
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/1",
+    "en_oferta": false,
+    "descuento_pct": 0,
+    "prueba_gratis": true
+   }
+  ],
+  "metacritic": {
+   "ok": true,
+   "score": 91
+  },
+  "hltb": {
+   "ok": true,
+   "horas_main": 42.5,
+   "horas_completo": 110.0
+  },
+  "ultima_actualizacion": "2026-11-10T14:00:00+00:00"
+ },
+ {
+  "id": 2,
+  "nombre": "Cazadores del Alba",
+  "imagen": null,
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2021-10-05",
+  "precio_sugerido": 39.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "ok": true,
+    "precio_actual": 9.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/2/",
+    "en_oferta": true,
+    "descuento_pct": 75
+   },
+   {
+    "tienda": "PlayStation Store",
+    "ok": true,
+    "precio_actual": 11.99,
+    "precio_regular": 39.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/2",
+    "en_oferta": true,
+    "descuento_pct": 70
+   }
+  ],
+  "metacritic": {
+   "ok": true,
+   "score": 85
+  },
+  "hltb": {
+   "ok": true,
+   "horas_main": 18.0,
+   "horas_completo": 36.5
+  },
+  "ultima_actualizacion": "2026-11-10T14:00:00+00:00"
+ },
+ {
+  "id": 3,
+  "nombre": "Neón Runner",
+  "imagen": null,
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-06-20",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "ok": true,
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/3/",
+    "en_oferta": false,
+    "descuento_pct": 0
+   },
+   {
+    "tienda": "PlayStation Store",
+    "ok": false,
+    "error": "timeout"
+   }
+  ],
+  "metacritic": {
+   "ok": true,
+   "score": 78
+  },
+  "hltb": {
+   "ok": true,
+   "horas_main": 8.5,
+   "horas_completo": 15.0
+  },
+  "ultima_actualizacion": "2026-11-10T14:00:00+00:00"
+ },
+ {
+  "id": 4,
+  "nombre": "La Última Frontera",
+  "imagen": null,
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2018-11-02",
+  "precio_sugerido": 29.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "ok": true,
+    "precio_actual": 14.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/4/",
+    "en_oferta": true,
+    "descuento_pct": 50
+   },
+   {
+    "tienda": "PlayStation Store",
+    "ok": true,
+    "precio_actual": 29.99,
+    "precio_regular": 29.99,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/4",
+    "en_oferta": false,
+    "descuento_pct": 0
+   }
+  ],
+  "metacritic": {
+   "ok": true,
+   "score": 97
+  },
+  "hltb": {
+   "ok": true,
+   "horas_main": 51.0,
+   "horas_completo": 190.0
+  },
+  "ultima_actualizacion": "2026-11-10T14:00:00+00:00"
+ },
+ {
+  "id": 5,
+  "nombre": "Mazmorras de Cristal",
+  "imagen": null,
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2022-02-11",
+  "precio_sugerido": 24.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "ok": true,
+    "precio_actual": 12.49,
+    "precio_regular": 24.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/5/",
+    "en_oferta": true,
+    "descuento_pct": 50
+   },
+   {
+    "tienda": "PlayStation Store",
+    "ok": true,
+    "precio_actual": 12.49,
+    "precio_regular": 24.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/5",
+    "en_oferta": true,
+    "descuento_pct": 50
+   }
+  ],
+  "metacritic": {
+   "ok": true,
+   "score": 88
+  },
+  "hltb": {
+   "ok": true,
+   "horas_main": 23.0,
+   "horas_completo": 90.0
+  },
+  "ultima_actualizacion": "2026-11-10T14:00:00+00:00"
+ },
+ {
+  "id": 6,
+  "nombre": "Velocidad Total 5",
+  "imagen": null,
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2025-09-30",
+  "precio_sugerido": 69.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "ok": true,
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/6/",
+    "en_oferta": false,
+    "descuento_pct": 0
+   },
+   {
+    "tienda": "PlayStation Store",
+    "ok": true,
+    "precio_actual": 69.99,
+    "precio_regular": 69.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/6",
+    "en_oferta": false,
+    "descuento_pct": 0
+   }
+  ],
+  "metacritic": {
+   "ok": true,
+   "score": 72
+  },
+  "hltb": {
+   "ok": true,
+   "horas_main": 12.0,
+   "horas_completo": 40.0
+  },
+  "ultima_actualizacion": "2026-11-10T14:00:00+00:00"
+ },
+ {
+  "id": 7,
+  "nombre": "Pequeño Dragón",
+  "imagen": null,
+  "plataformas": [
+   "PC",
+   "PS4"
+  ],
+  "fecha_lanzamiento": "2019-05-17",
+  "precio_sugerido": 14.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "ok": true,
+    "precio_actual": 3.74,
+    "precio_regular": 14.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/7/",
+    "en_oferta": true,
+    "descuento_pct": 75
+   },
+   {
+    "tienda": "PlayStation Store",
+    "ok": true,
+    "precio_actual": 7.49,
+    "precio_regular": 14.99,
+    "formato": "Digital",
+    "plataforma": "PS4",
+    "url": "https://store.playstation.com/en-us/concept/7",
+    "en_oferta": true,
+    "descuento_pct": 50
+   }
+  ],
+  "metacritic": {
+   "ok": true,
+   "score": 83
+  },
+  "hltb": {
+   "ok": true,
+   "horas_main": 6.5,
+   "horas_completo": 10.5
+  },
+  "ultima_actualizacion": "2026-11-10T14:00:00+00:00"
+ },
+ {
+  "id": 8,
+  "nombre": "Sombras de Hierro",
+  "imagen": null,
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2024-01-26",
+  "precio_sugerido": 49.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "ok": true,
+    "precio_actual": 34.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/8/",
+    "en_oferta": true,
+    "descuento_pct": 30
+   },
+   {
+    "tienda": "PlayStation Store",
+    "ok": true,
+    "precio_actual": 49.99,
+    "precio_regular": 49.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/8",
+    "en_oferta": false,
+    "descuento_pct": 0
+   }
+  ],
+  "metacritic": {
+   "ok": false,
+   "error": "timeout"
+  },
+  "hltb": {
+   "ok": true,
+   "horas_main": 30.0,
+   "horas_completo": null
+  },
+  "ultima_actualizacion": "2026-11-10T14:00:00+00:00"
+ },
+ {
+  "id": 9,
+  "nombre": "Granja Estelar",
+  "imagen": null,
+  "plataformas": [
+   "PC",
+   "PS4",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2020-08-13",
+  "precio_sugerido": 19.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "ok": true,
+    "precio_actual": 14.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/9/",
+    "en_oferta": true,
+    "descuento_pct": 25,
+    "desactualizado": true,
+    "error": "HTTP 503",
+    "dato_de": "2026-11-09T14:00:00+00:00"
+   },
+   {
+    "tienda": "PlayStation Store",
+    "ok": true,
+    "precio_actual": 19.99,
+    "precio_regular": 19.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/9",
+    "en_oferta": false,
+    "descuento_pct": 0
+   }
+  ],
+  "metacritic": {
+   "ok": true,
+   "score": 90
+  },
+  "hltb": {
+   "ok": false,
+   "error": "HLTB no encontró el juego"
+  },
+  "ultima_actualizacion": "2026-11-10T14:00:00+00:00"
+ },
+ {
+  "id": 10,
+  "nombre": "Código Fantasma",
+  "imagen": null,
+  "plataformas": [
+   "PC",
+   "PS5"
+  ],
+  "fecha_lanzamiento": "2026-04-02",
+  "precio_sugerido": 59.99,
+  "tiendas": [
+   {
+    "tienda": "Steam",
+    "ok": true,
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PC",
+    "url": "https://store.steampowered.com/app/10/",
+    "en_oferta": false,
+    "descuento_pct": 0
+   },
+   {
+    "tienda": "PlayStation Store",
+    "ok": true,
+    "precio_actual": 59.99,
+    "precio_regular": 59.99,
+    "formato": "Digital",
+    "plataforma": "PS5",
+    "url": "https://store.playstation.com/en-us/concept/10",
+    "en_oferta": false,
+    "descuento_pct": 0
+   }
+  ],
+  "metacritic": {
+   "ok": true,
+   "score": 80,
+   "desactualizado": true,
+   "error": "timeout",
+   "dato_de": "2026-11-09T14:00:00+00:00"
+  },
+  "hltb": {
+   "ok": true,
+   "horas_main": 14.0,
+   "horas_completo": 28.0
+  },
+  "ultima_actualizacion": "2026-11-10T14:00:00+00:00"
+ }
+]

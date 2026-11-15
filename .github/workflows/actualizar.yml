@@ -1,0 +1,81 @@
+# Corre el scraper cada 12 horas, sube el data.json nuevo al repo y publica la carpeta web/ en GitHub Pages.
+# Requisitos (una sola vez, en GitHub):
+#   Settings > Secrets and variables > Actions: SUPABASE_URL y SUPABASE_KEY (la llave pública de lectura)
+#   Settings > Pages > Source: GitHub Actions
+name: Actualizar precios
+
+on:
+  schedule:
+    - cron: "0 6,18 * * *"   # 06:00 y 18:00 UTC = 00:00 y 12:00 en Costa Rica
+  workflow_dispatch:          # botón "Run workflow" para correrlo a mano
+  push:
+    branches: [main]
+    paths: ["web/**"]         # si se cambia la página se vuelve a publicar sin scrapear
+
+permissions:
+  contents: write   # para subir el data.json
+  pages: write
+  id-token: write
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false  # nunca dos corridas a la vez escribiendo el data.json
+
+jobs:
+  scrapear:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Correr el scraper
+        id: scraper
+        continue-on-error: true   # si falla se publica el último data.json bueno
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python ejecutar.py
+
+      - name: Guardar el log de la corrida
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-${{ github.run_number }}
+          path: logs/
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Subir data.json e historial.json al repo
+        if: steps.scraper.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/data.json web/historial.json
+          git diff --cached --quiet && echo "sin cambios" && exit 0
+          git commit -m "data.json actualizado $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase
+          git push
+
+  publicar:
+    needs: scrapear
+    if: always()   # se publica aunque el scraper haya fallado o no haya corrido (push)
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main   # incluye el data.json que acaba de subir el job anterior
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+      - id: deploy
+        uses: actions/deploy-pages@v4

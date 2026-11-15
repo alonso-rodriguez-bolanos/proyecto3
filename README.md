@@ -2,6 +2,8 @@
 
 Lee la lista de juegos de Supabase, consulta precios, Metacritic y How Long To Beat en paralelo y genera `web/data.json` para la página web.
 
+**Página:** https://alonso-rodriguez-bolanos.github.io/proyecto3/ · se actualiza sola cada 12 h con GitHub Actions (`.github/workflows/actualizar.yml`).
+
 ## Instalar
 
 ```
@@ -22,8 +24,23 @@ python ejecutar.py --falsos            # con los scrapers de prueba
 python ejecutar.py --workers 8         # cantidad de procesos
 python ejecutar.py --secuencial        # versión de referencia
 python -m scraper.tiendas 5            # prueba las tiendas reales con los primeros 5 juegos del CSV
+python -m scraper.metacritic 5         # prueba Metacritic
+python -m scraper.hltb 5               # prueba How Long To Beat
+python herramientas/benchmark.py       # mide 1, 2, 4, 8 y 16 procesos y dibuja los gráficos en docs/benchmark
+python herramientas/preparar_lote.py datos/candidatos_persona3.csv  # busca enlaces, precio y fecha de juegos nuevos
+python -m http.server -d web 8000      # ver la página en http://localhost:8000 (?mock=1 para los datos de prueba)
 python -m unittest discover -s pruebas # pruebas
 ```
+
+## Documento técnico
+
+| Sección | Archivo |
+|---|---|
+| 3. Scraping de tiendas e indicador de oferta | `docs/seccion3_tiendas.md` |
+| 3. Scraping de Metacritic y HLTB, consistencia del JSON | `docs/seccion3_metacritic_hltb.md` |
+| 4. Actualización recurrente | `docs/seccion4_actualizacion.md` |
+| 5. Rendimiento | `docs/seccion5_rendimiento.md` |
+| 6. Instalación y URL | `docs/seccion6_instalacion.md` |
 
 ## Estructura
 

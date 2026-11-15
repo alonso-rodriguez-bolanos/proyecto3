@@ -17,6 +17,8 @@ from .red import fuente_segura, obtener_html
 COOKIES_EDAD = {"birthtime": "568022401", "lastagecheckage": "1-0-1988", "mature_content": "1", "wants_mature_content": "1"}
 GRATIS = ("free", "free to play", "free-to-play", "gratis")
 PRECIO = re.compile(r"\$\s*([\d,]+(?:\.\d{1,2})?)")
+NO_ES_EL_JUEGO = re.compile(r"\b(upgrade|soundtrack|season pass|expansion pass|dlc)\b", re.I)  # bloques de Steam que venden algo distinto del juego
+PRUEBA = re.compile(r"\b(trial|demo)\b", re.I)  # ofertas de PS Store que son una prueba gratis, no una compra
 SUSCRIPCION = re.compile(r"PlayStation Plus|PS Plus|EA Play|Ubisoft\+|subscri", re.I)  # ofertas que no son precio de compra normal
 
 
@@ -60,8 +62,11 @@ def armar_tienda(juego: dict, tienda: str, plataforma: str, url: str, actual: fl
 # ---------- Steam ----------
 
 def _es_bundle(bloque) -> bool:
-    """Los bloques de bundle venden varios juegos juntos y no sirven como precio del juego."""
+    """Los bloques de bundle venden varios juegos juntos y no sirven como precio del juego. Tampoco sirven los que venden solo una mejora, un soundtrack o un pase de temporada para quien ya tiene el juego (por ejemplo "Buy DEATH STRANDING DIRECTOR'S CUT UPGRADE" a $9.99)."""
     if bloque.find_parent(class_="dynamic_bundle_description") or "dynamic_bundle_description" in (bloque.get("class") or []):
+        return True
+    título = bloque.select_one("h1, h2")
+    if título and NO_ES_EL_JUEGO.search(título.get_text(" ", strip=True)):
         return True
     return bool(bloque.select_one('input[name="bundleid"]')) or "bundle" in (bloque.get("id") or "")
 
@@ -121,6 +126,8 @@ def _ofertas_html(página) -> list[tuple[float, float | None]]:
         info = oferta.select_one('[data-qa$="#discountInfo"]')
         if oferta.select_one('[data-qa*="#serviceIcon#"]') or (info and SUSCRIPCION.search(info.get_text())):
             continue  # precio solo para miembros de PS Plus u otra suscripción
+        if PRUEBA.search(oferta.get_text(" ", strip=True)):
+            continue  # "Free | Trial": prueba gratis, no es el precio del juego
         final = oferta.select_one('[data-qa$="#finalPrice"]')
         actual = leer_precio(final.get_text(strip=True)) if final else None
         if actual is None:
@@ -164,19 +171,37 @@ def leer_psstore(html: str, juego: dict | None = None) -> tuple[float, float | N
         if estado:  # por ejemplo "Announced" o "Unavailable"
             raise SinPrecio(f"PS Store no lo vende: {estado.get_text(strip=True)}")
         raise PaginaIncompleta("PS Store no muestra precio de compra")
+    pagadas = [o for o in ofertas if o[0] > 0]
+    if pagadas and len(pagadas) < len(ofertas):
+        ofertas = pagadas  # un "gratis" junto a un precio real es una prueba o un regalo de suscripción que se coló (el respaldo del script no trae el texto "Trial")
     actual, regular = ofertas[0]  # la primera oferta normal es la del juego principal
     return actual, regular, _plataforma_ps(página, juego or {})
 
 
+def hay_prueba_gratis(html: str) -> bool:
+    """True si el botón de compra ofrece una prueba gratis ("Free | Trial") además del precio normal."""
+    for oferta in BeautifulSoup(html, "html.parser").select('[data-qa^="mfeCtaMain#offer"]'):
+        if re.fullmatch(r"mfeCtaMain#offer\d+", oferta["data-qa"]):
+            texto = oferta.get_text(" ", strip=True)
+            if PRUEBA.search(texto) and leer_precio(texto.split()[0]) == 0.0:
+                return True
+    return False
+
+
 @fuente_segura("psstore")
 def scrape_psstore(juego: dict) -> dict:
-    """Lee la página del juego en store.playstation.com/en-us (concept o product)."""
+    """Lee la página del juego en store.playstation.com/en-us (concept o product). Si además ofrece una prueba gratis lo marca con prueba_gratis."""
     url = juego["url_psstore"]
+    html = obtener_html("psstore", url)
     try:
-        actual, regular, plataforma = leer_psstore(obtener_html("psstore", url), juego)
+        actual, regular, plataforma = leer_psstore(html, juego)
     except PaginaIncompleta:  # un segundo intento, el limitador ya pone la pausa
-        actual, regular, plataforma = leer_psstore(obtener_html("psstore", url), juego)
-    return armar_tienda(juego, "PlayStation Store", plataforma, url, actual, regular)
+        html = obtener_html("psstore", url)
+        actual, regular, plataforma = leer_psstore(html, juego)
+    resultado = armar_tienda(juego, "PlayStation Store", plataforma, url, actual, regular)
+    if hay_prueba_gratis(html):
+        resultado["prueba_gratis"] = True  # la web lo muestra como etiqueta aparte, no como precio
+    return resultado
 
 
 # ---------- Xbox Store (opcional, tercera tienda) ----------

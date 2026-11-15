@@ -1,0 +1,59 @@
+{
+ "maquina": {
+  "procesador": "Datos de prueba",
+  "nucleos_logicos": 16
+ },
+ "juegos": 216,
+ "repeticiones": 3,
+ "resumen": [
+  {
+   "config": "secuencial",
+   "workers": 1,
+   "promedio_s": 1240.0,
+   "desviacion_s": 18.0,
+   "speedup": 1.0,
+   "eficiencia": 1.0
+  },
+  {
+   "config": "1",
+   "workers": 1,
+   "promedio_s": 352.0,
+   "desviacion_s": 9.0,
+   "speedup": 3.52,
+   "eficiencia": 3.52
+  },
+  {
+   "config": "2",
+   "workers": 2,
+   "promedio_s": 190.0,
+   "desviacion_s": 6.5,
+   "speedup": 6.53,
+   "eficiencia": 3.26
+  },
+  {
+   "config": "4",
+   "workers": 4,
+   "promedio_s": 112.0,
+   "desviacion_s": 4.0,
+   "speedup": 11.07,
+   "eficiencia": 2.77
+  },
+  {
+   "config": "8",
+   "workers": 8,
+   "promedio_s": 78.0,
+   "desviacion_s": 3.1,
+   "speedup": 15.9,
+   "eficiencia": 1.99
+  },
+  {
+   "config": "16",
+   "workers": 16,
+   "promedio_s": 71.0,
+   "desviacion_s": 2.8,
+   "speedup": 17.46,
+   "eficiencia": 1.09
+  }
+ ],
+ "prueba": true
+}

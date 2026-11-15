@@ -7,6 +7,7 @@ import os
 import time
 from collections import Counter
 from datetime import datetime
+from pathlib import Path
 
 from scraper import config
 from scraper.falsos import juegos_falsos
@@ -28,6 +29,7 @@ def leer_argumentos() -> argparse.Namespace:
     parser.add_argument("--repo-falso", type=int, default=0, metavar="N", help="N juegos inventados sin Supabase")
     parser.add_argument("--limite", type=int, default=0, metavar="N", help="solo los primeros N juegos")
     parser.add_argument("--sin-limites", action="store_true", help="quita las pausas por sitio")
+    parser.add_argument("--salida", default=str(RUTA_DATA), help="dónde guardar el JSON (el benchmark usa otro archivo)")
     return parser.parse_args()
 
 
@@ -47,7 +49,7 @@ def configurar_log() -> None:
     logging.getLogger("urllib3").setLevel(logging.WARNING)  # menos ruido
 
 
-def guardar(resultado: list[dict]) -> None:
+def guardar(resultado: list[dict], ruta: Path = RUTA_DATA) -> None:
     """Usa guardar_json de scraper/guardar.py si existe. Si no, escribe a un temporal y lo renombra para que la web nunca lea un JSON a medias."""
     try:
         from scraper.guardar import guardar_json
@@ -55,13 +57,13 @@ def guardar(resultado: list[dict]) -> None:
         guardar_json = None
 
     if guardar_json:
-        guardar_json(resultado, RUTA_DATA)
+        guardar_json(resultado, ruta)
         return
 
-    RUTA_DATA.parent.mkdir(exist_ok=True)
-    temporal = RUTA_DATA.with_suffix(".tmp")
+    ruta.parent.mkdir(exist_ok=True)
+    temporal = ruta.with_suffix(".tmp")
     temporal.write_text(json.dumps(resultado, ensure_ascii=False, indent=1), encoding="utf-8")
-    os.replace(temporal, RUTA_DATA)  # reemplazo atómico
+    os.replace(temporal, ruta)  # reemplazo atómico
 
 
 def contar_fallas(resultado: list[dict]) -> dict:
@@ -116,7 +118,7 @@ def main() -> None:
     duración = round(time.perf_counter() - inicio, 2)
 
     # 3. Resultado
-    guardar(resultado)
+    guardar(resultado, Path(args.salida))
     fallas = contar_fallas(resultado)
     anotar_metricas(args, resultado, duración, fallas)
     log.info("listo: %d juegos en %.1fs, fallas %s", len(resultado), duración, fallas or "ninguna")
