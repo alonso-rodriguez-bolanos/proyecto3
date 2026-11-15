@@ -13,6 +13,7 @@ log = logging.getLogger("scraper.nivel2")
 TIENDAS = [("Steam", "url_steam"), ("PlayStation Store", "url_psstore"), ("Xbox Store", "url_xbox"), ("Nintendo eShop", "url_eshop")]
 # archivo dentro de scraper y función que el motor busca para cada fuente
 FUENTES_REALES = {"procesar_tiendas": "tiendas", "scrape_metacritic": "metacritic", "scrape_hltb": "hltb"}
+_avisados: set[str] = set()  # para avisar una sola vez por proceso de cada archivo que falta
 
 
 def opciones_por_defecto(**cambios) -> dict:
@@ -23,8 +24,13 @@ def opciones_por_defecto(**cambios) -> dict:
     return opciones
 
 
+def _no_disponible(juego: dict, *args) -> dict:
+    """Reemplazo de una fuente cuyo archivo todavía no existe."""
+    return {"ok": False, "error": "scraper no disponible"}
+
+
 def obtener_fuentes(usar_falsos: bool) -> dict:
-    """Devuelve las funciones de cada fuente. Las reales se buscan en scraper/tiendas.py, metacritic.py y hltb.py. Si falta alguna lanza ImportError diciendo cuál."""
+    """Devuelve las funciones de cada fuente. Las reales se buscan en scraper/tiendas.py, metacritic.py y hltb.py. Si falta alguna, solo esa queda como no disponible y las demás funcionan normal."""
     if usar_falsos:
         from . import falsos
         return {nombre: getattr(falsos, nombre) for nombre in FUENTES_REALES}
@@ -32,8 +38,11 @@ def obtener_fuentes(usar_falsos: bool) -> dict:
     for función, archivo in FUENTES_REALES.items():
         try:
             fuentes[función] = getattr(importlib.import_module(f"scraper.{archivo}"), función)
-        except (ImportError, AttributeError) as error:
-            raise ImportError(f"falta scraper/{archivo}.py con {función}(), mientras tanto usar --falsos") from error
+        except (ImportError, AttributeError):
+            fuentes[función] = _no_disponible  # solo esta fuente queda sin datos
+            if archivo not in _avisados:
+                _avisados.add(archivo)
+                log.warning("falta scraper/%s.py, %s queda como no disponible", archivo, función)
     return fuentes
 
 
@@ -73,12 +82,7 @@ def procesar_juego(juego: dict, opciones: dict | None = None) -> dict:
     """Consulta las tres fuentes de un juego en hilos y devuelve su registro. Una fuente que falla o tarda demasiado queda con ok False. Nunca lanza excepciones."""
     opciones = opciones or opciones_por_defecto()
     inicio = time.perf_counter()
-    try:
-        fuentes = obtener_fuentes(opciones["usar_falsos"])
-    except ImportError as error:
-        log.error(str(error))
-        falla = {"ok": False, "error": "scraper no disponible"}
-        return armar_registro(juego, _tiendas_con_error(juego, falla["error"]), dict(falla), dict(falla))
+    fuentes = obtener_fuentes(opciones["usar_falsos"])
 
     tareas = {
         "tiendas": (fuentes["procesar_tiendas"], juego, opciones["workers_tiendas"]),

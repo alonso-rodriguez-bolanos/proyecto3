@@ -6,6 +6,7 @@ import sys
 import tempfile
 import threading
 import time
+import types
 import unittest
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -191,6 +192,27 @@ class PruebasNivel2(unittest.TestCase):
             registro = nivel2.procesar_juego(juego)
         self.assertEqual([t["tienda"] for t in registro["tiendas"]], ["Steam", "PlayStation Store"])
         self.assertTrue(all(not t["ok"] for t in registro["tiendas"]))
+
+
+    def test_falta_un_scraper_y_los_demas_funcionan(self):
+        """Con solo tiendas.py, las tiendas traen precios y Metacritic y HLTB quedan como no disponibles."""
+        def importar(nombre):
+            if nombre == "scraper.tiendas":
+                return types.SimpleNamespace(procesar_tiendas=lambda juego, n: [{"tienda": "Steam", "ok": True, "precio_actual": 9.99}])
+            raise ImportError(nombre)
+
+        juego = juegos_falsos(1)[0]
+        with mock.patch.object(nivel2.importlib, "import_module", side_effect=importar):
+            registro = nivel2.procesar_juego(juego, nivel2.opciones_por_defecto())
+        self.assertEqual(registro["tiendas"][0]["precio_actual"], 9.99)
+        self.assertEqual(registro["metacritic"], {"ok": False, "error": "scraper no disponible"})
+        self.assertEqual(registro["hltb"], {"ok": False, "error": "scraper no disponible"})
+
+    def test_si_falta_tiendas_cada_tienda_queda_no_disponible(self):
+        with mock.patch.object(nivel2.importlib, "import_module", side_effect=ImportError):
+            registro = nivel2.procesar_juego(juegos_falsos(1)[0], nivel2.opciones_por_defecto())
+        self.assertEqual([t["tienda"] for t in registro["tiendas"]], ["Steam", "PlayStation Store"])
+        self.assertTrue(all(t["error"] == "scraper no disponible" for t in registro["tiendas"]))
 
 
 # ---------- nivel 1 ----------
