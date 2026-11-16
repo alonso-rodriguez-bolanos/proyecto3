@@ -21,7 +21,7 @@ PORTADA = {
     "curso": "IC3101 Arquitectura de Computadoras",
     "titulo": "III Proyecto: Web Scraping Multinúcleo y Sitio Web",
     "subtitulo": "Documento técnico",
-    "integrantes": ["Integrante 1", "Integrante 2", "Integrante 3"],  # cambiar por los nombres reales
+    "integrantes": ["Andrew Arce Pérez", "Alonso Rodríguez Bolaños", "Daniel Rojas Vargas"],
     "url": "https://alonso-rodriguez-bolanos.github.io/proyecto3/",
     "repo": "https://github.com/alonso-rodriguez-bolanos/proyecto3",
 }

@@ -3,7 +3,7 @@
 <p>IC3101 Arquitectura de Computadoras</p>
 <h1>III Proyecto: Web Scraping Multinúcleo y Sitio Web</h1>
 <p class="sub">Documento técnico</p>
-<p>Integrante 1</p><p>Integrante 2</p><p>Integrante 3</p>
+<p>Andrew Arce Pérez</p><p>Alonso Rodríguez Bolaños</p><p>Daniel Rojas Vargas</p>
 <p style="margin-top:2cm">Sitio público: https://alonso-rodriguez-bolanos.github.io/proyecto3/</p>
 <p>Repositorio: https://github.com/alonso-rodriguez-bolanos/proyecto3</p>
 <p>15/11/2026</p>
