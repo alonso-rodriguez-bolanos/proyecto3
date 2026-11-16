@@ -5,7 +5,7 @@ Medido el 15/11/2026 con `python herramientas/benchmark.py`. Los tiempos de cada
 ## 5.1 Cómo se midió
 
 - **Computadora:** siempre la misma, una laptop con procesador AMD Ryzen (familia 25, modelo 68), con **8 núcleos físicos y 16 lógicos**, Windows 11 y Python 3.14, conectada por Wi‑Fi doméstico. Los datos de la corrida quedan en `docs/benchmark/maquina.json`.
-- **Carga:** los **216** juegos activos del REPO, cada uno con Steam, PlayStation Store, Metacritic y HLTB, o sea 4 solicitudes por juego (864 por corrida). El REPO se leyó de la copia local `datos/repo_cache.json` (la misma tabla de Supabase guardada por `repo.py`), así todas las corridas procesan exactamente los mismos juegos.
+- **Carga:** los **216** juegos del REPO, cada uno con Steam, PlayStation Store, Metacritic y HLTB, o sea 4 solicitudes por juego (864 por corrida). El REPO se leyó de la copia local `datos/repo_cache.json` (la misma tabla de Supabase guardada por `repo.py`), así todas las corridas procesan exactamente los mismos juegos.
 - **Duración total:** 18 corridas, de las 16:57 a las 20:53 (casi 4 horas).
 - **Configuraciones:** versión secuencial y 1, 2, 4, 8 y 16 procesos en el nivel 1. Los niveles 2 y 3 usan siempre 3 y 2 hilos.
 - **Versión secuencial:** el mismo código con los tres niveles en 1 worker (`python ejecutar.py --secuencial`): un proceso, y las fuentes y tiendas de cada juego una después de otra.
