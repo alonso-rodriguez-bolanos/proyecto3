@@ -1,0 +1,64 @@
+{
+ "maquina": {
+  "procesador": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD",
+  "nucleos_logicos": 16,
+  "sistema": "Windows-11-10.0.26300-SP0",
+  "python": "3.14.2",
+  "falsos": false,
+  "sin_limites": false,
+  "fecha": "2026-11-15 20:52"
+ },
+ "juegos": 216,
+ "repeticiones": 3,
+ "resumen": [
+  {
+   "config": "secuencial",
+   "workers": 1,
+   "promedio_s": 1874.63,
+   "desviacion_s": 171.83,
+   "speedup": 1.0,
+   "eficiencia": 1.0
+  },
+  {
+   "config": "1",
+   "workers": 1,
+   "promedio_s": 1115.72,
+   "desviacion_s": 85.06,
+   "speedup": 1.68,
+   "eficiencia": 1.68
+  },
+  {
+   "config": "2",
+   "workers": 2,
+   "promedio_s": 571.48,
+   "desviacion_s": 86.27,
+   "speedup": 3.28,
+   "eficiencia": 1.64
+  },
+  {
+   "config": "4",
+   "workers": 4,
+   "promedio_s": 376.6,
+   "desviacion_s": 56.25,
+   "speedup": 4.98,
+   "eficiencia": 1.24
+  },
+  {
+   "config": "8",
+   "workers": 8,
+   "promedio_s": 405.83,
+   "desviacion_s": 37.33,
+   "speedup": 4.62,
+   "eficiencia": 0.58
+  },
+  {
+   "config": "16",
+   "workers": 16,
+   "promedio_s": 355.91,
+   "desviacion_s": 59.72,
+   "speedup": 5.27,
+   "eficiencia": 0.33
+  }
+ ],
+ "prueba": false
+}
