@@ -1,6 +1,6 @@
 # 6. Instalación, uso y URL pública
 
-**Página publicada:** https://alonso-rodriguez-bolanos.github.io/proyecto3/ (se activa al configurar Pages, ver 4.4)
+**Página publicada:** https://alonso-rodriguez-bolanos.github.io/proyecto3/ (se activa al configurar Pages, ver 4.5)
 
 **Repositorio:** https://github.com/alonso-rodriguez-bolanos/proyecto3
 

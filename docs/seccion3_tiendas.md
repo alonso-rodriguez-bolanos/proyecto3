@@ -30,7 +30,7 @@ Página: `store.steampowered.com/app/<appid>/?cc=us&l=english`.
   - Sin descuento: `.game_purchase_price` muestra un solo precio y ese precio es a la vez el actual y el regular.
   - Con descuento: `.discount_original_price` es el regular, `.discount_final_price` el actual y `.discount_pct` el porcentaje.
   - El atributo `data-price-final` trae el precio en centavos y se usa si el texto no se puede leer.
-- **Qué bloque se toma.** Se toma el primer bloque que tenga precio. Se saltan los *bundles* (bloques dentro de `.dynamic_bundle_description`), que venden varios juegos juntos, y las demos, que no tienen precio. El primer bloque que queda es la edición estándar del juego.
+- **Qué bloque se toma.** Se toma el primer bloque que tenga precio. Se saltan los *bundles* (bloques dentro de `.dynamic_bundle_description`), que venden varios juegos juntos, y las demos, que no tienen precio. El primer bloque que queda es la edición estándar del juego. También se saltan los bloques cuyo título dice *Upgrade*, *Soundtrack*, *Season Pass*, *Expansion Pass* o *DLC*: en Death Stranding Director's Cut el primer bloque era la mejora de $9.99 para quienes ya tenían el juego, y el precio real era el segundo ($39.99).
 - **Gratis.** El texto `Free` o `Free To Play` se lee como precio 0.
 - **Retirado de la tienda.** Si la página solo muestra un aviso en `#purchase_note`, por ejemplo "unlisted on the Steam store", se reporta `no está a la venta en Steam`.
 
@@ -44,6 +44,7 @@ Con las DevTools se confirmó que la página llega con el precio ya puesto en el
 - **Ofertas de suscripción.** Muchas veces `offer0` no es un precio de compra sino el de PS Plus: su precio es "Included" o trae un descuento solo para suscriptores. Esas ofertas se reconocen porque llevan un `#serviceIcon#ps-plus` o un `#discountInfo` que menciona PlayStation Plus, EA Play o Ubisoft+, y se saltan. Se toma la primera oferta normal. En Red Dead Redemption 2, por ejemplo, `offer0` dice "Included" (PS Plus Extra) y el precio de compra real está en `offer1`.
 - **Respaldo en el `<script>`.** El botón tiene un atributo `data-initial` con el id de un `<script type="application/json">` de la misma página. Ese script trae cada precio con `basePriceValue` y `discountedValue` en centavos, junto con `isTiedToSubscription`. Si el HTML visible no trae una oferta que se pueda leer, se usan esos datos, descartando los que dependen de una suscripción. Leer ese script cuenta como scraping porque es parte del HTML de la página.
 - **Plataforma.** Sale de `gameInfo#releaseInformation#platform-value` ("PS4, PS5"). Se reporta `PS5` si el juego está para PS5 y si no `PS4`.
+- **Pruebas gratis.** Algunas páginas ponen primero una oferta *Free Trial* o *Demo* con precio 0 (Lords of the Fallen, por ejemplo). Esas ofertas no son el precio del juego y se saltan; si había precios pagados, se descarta cualquier precio 0. Que exista la prueba se guarda aparte como `"prueba_gratis": true`, y la web lo muestra con una etiqueta pequeña junto al nombre.
 - **Sin precio.** Si la oferta dice "Announced" o "Unavailable", se reporta `PS Store no lo vende: Announced`. Si la página llega sin el bloque de compra, cosa que pasó una vez en las pruebas, se pide otra vez antes de marcar el error.
 
 ## 3.4 Xbox Store (tercera tienda, opcional)
