@@ -7,7 +7,7 @@ import time
 
 from . import config
 from .limitador import turno
-from .red import fuente_segura
+from .red import ErrorDescarga, fuente_segura
 
 log = logging.getLogger("scraper.hltb")
 SIMILITUD_MINIMA = 0.8  # debajo de esto el resultado se considera otro juego
@@ -15,17 +15,21 @@ ID_EN_URL = re.compile(r"howlongtobeat\.com/game/(\d+)")
 
 
 def _consultar(consulta):
-    """Corre una consulta a HLTB dentro del límite del sitio y la reintenta con espera de 1, 2 y 4 s. La excepción del último intento se propaga y fuente_segura la convierte en ok False."""
-    for intento in range(1, config.INTENTOS + 1):
+    """Corre una consulta a HLTB dentro del límite del sitio y la reintenta con espera de 5, 10 y 20 s. La biblioteca devuelve None cuando HLTB rechaza la búsqueda (por ejemplo, cuando frena por recibir muchas seguidas), así que None también se reintenta. Si el último intento falla se lanza ErrorDescarga y fuente_segura lo convierte en ok False."""
+    for intento in range(1, config.INTENTOS_HLTB + 1):
         try:
             with turno("hltb"):
-                return consulta()
-        except Exception as error:  # la biblioteca no tiene excepciones propias
-            if intento == config.INTENTOS:
-                raise
-            espera = min(config.ESPERA_BASE_S * 2 ** (intento - 1) + random.uniform(0, config.ESPERA_BASE_S), config.ESPERA_MAXIMA_S)
-            log.warning("hltb intento %d/%d falló %s, reintento en %.1fs", intento, config.INTENTOS, type(error).__name__, espera)
-            time.sleep(espera)
+                resultado = consulta()
+            if resultado is not None:
+                return resultado
+            error = "HLTB no respondió la búsqueda"
+        except Exception as e:  # la biblioteca no tiene excepciones propias
+            error = f"{type(e).__name__}: {e}"
+        if intento == config.INTENTOS_HLTB:
+            raise ErrorDescarga(f"{error} después de {intento} intentos")
+        espera = min(config.ESPERA_HLTB_S * 2 ** (intento - 1) + random.uniform(0, 1), config.ESPERA_MAXIMA_S)
+        log.warning("hltb intento %d/%d falló (%s), reintento en %.1fs", intento, config.INTENTOS_HLTB, error, espera)
+        time.sleep(espera)
 
 
 def elegir(candidatos: list, anio: int | None):

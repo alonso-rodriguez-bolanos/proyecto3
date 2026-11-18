@@ -36,6 +36,8 @@ TIMEOUT_LECTURA_S = _num("TIMEOUT_LECTURA_S", 20)  # tiempo para recibir la pág
 INTENTOS = int(_num("INTENTOS", 3))  # intentos por solicitud
 ESPERA_BASE_S = _num("ESPERA_BASE_S", 1)  # espera entre intentos 1 2 4 s
 ESPERA_MAXIMA_S = 30  # tope de espera entre intentos
+INTENTOS_HLTB = int(_num("INTENTOS_HLTB", 4))  # HLTB necesita más intentos porque frena por ratos
+ESPERA_HLTB_S = _num("ESPERA_HLTB_S", 5)  # espera entre intentos de HLTB 5 10 20 s
 CODIGOS_REINTENTABLES = {408, 425, 429, 500, 502, 503, 504}  # errores pasajeros
 ENCABEZADOS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
@@ -48,7 +50,7 @@ LIMITES_SITIO = {
     "psstore": (int(_num("LIM_PSSTORE", 3)), _num("PAUSA_PSSTORE", 0.5)),
     "xbox": (int(_num("LIM_XBOX", 2)), _num("PAUSA_XBOX", 0.5)),
     "metacritic": (int(_num("LIM_METACRITIC", 3)), _num("PAUSA_METACRITIC", 0.5)),
-    "hltb": (int(_num("LIM_HLTB", 3)), _num("PAUSA_HLTB", 0.5)),
+    "hltb": (int(_num("LIM_HLTB", 1)), _num("PAUSA_HLTB", 1.0)),  # HLTB bloquea si recibe muchas búsquedas juntas, por eso una a la vez
     "supabase": (2, 0.0),
     "otro": (2, 1.0),  # cualquier sitio que no esté en la lista
 }

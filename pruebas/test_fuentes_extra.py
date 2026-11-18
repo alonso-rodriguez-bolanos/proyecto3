@@ -1,5 +1,6 @@
 """Pruebas de Metacritic, HLTB y guardar_json. No usan internet."""
 
+import contextlib
 import json
 import sys
 import tempfile
@@ -44,6 +45,11 @@ def _juego_hltb(nombre, similitud, anio, main=20.0, completo=90.0):
 
 
 class PruebasHltb(unittest.TestCase):
+    def setUp(self):
+        parche = mock.patch.object(hltb, "turno", lambda sitio: contextlib.nullcontext())  # sin la pausa del límite por sitio
+        parche.start()
+        self.addCleanup(parche.stop)
+
     def test_prefiere_el_anio_del_repo(self):
         hades = _juego_hltb("Hades", 0.9, 2020)
         hades_2 = _juego_hltb("Hades", 0.95, 2025)
@@ -61,9 +67,30 @@ class PruebasHltb(unittest.TestCase):
 
     def test_juego_no_encontrado(self):
         buscador = mock.Mock()
-        buscador.search.return_value = None
+        buscador.search.return_value = []  # HLTB respondió pero no hay resultados: no se reintenta
         with mock.patch("howlongtobeatpy.HowLongToBeat", return_value=buscador):
-            self.assertFalse(hltb.scrape_hltb({"nombre": "Nada"})["ok"])
+            resultado = hltb.scrape_hltb({"nombre": "Nada"})
+        self.assertEqual(resultado, {"ok": False, "error": "HLTB no encontró el juego"})
+        self.assertEqual(buscador.search.call_count, 1)
+
+    def test_none_se_reintenta_y_luego_funciona(self):
+        buscador = mock.Mock()
+        buscador.search.side_effect = [None, None, [_juego_hltb("Hades", 1.0, 2020, 23.58, 95.32)]]  # HLTB frenó 2 veces
+        with mock.patch("howlongtobeatpy.HowLongToBeat", return_value=buscador), mock.patch.object(hltb, "time") as reloj:
+            resultado = hltb.scrape_hltb({"nombre": "Hades", "fecha_lanzamiento": "2020-09-17"})
+        self.assertTrue(resultado["ok"])
+        self.assertEqual(resultado["horas_main"], 23.6)
+        self.assertEqual(reloj.sleep.call_count, 2)
+
+    def test_none_siempre_da_error_claro(self):
+        buscador = mock.Mock()
+        buscador.search.return_value = None
+        with mock.patch("howlongtobeatpy.HowLongToBeat", return_value=buscador), mock.patch.object(hltb, "time") as reloj:
+            resultado = hltb.scrape_hltb({"nombre": "Hades"})
+        self.assertFalse(resultado["ok"])
+        self.assertIn("no respondió", resultado["error"])
+        self.assertEqual(buscador.search.call_count, hltb.config.INTENTOS_HLTB)
+        self.assertEqual(reloj.sleep.call_count, hltb.config.INTENTOS_HLTB - 1)
 
     def test_reintenta_y_al_final_no_lanza(self):
         buscador = mock.Mock()
@@ -71,8 +98,8 @@ class PruebasHltb(unittest.TestCase):
         with mock.patch("howlongtobeatpy.HowLongToBeat", return_value=buscador), mock.patch.object(hltb, "time") as reloj:
             resultado = hltb.scrape_hltb({"nombre": "Hades"})
         self.assertFalse(resultado["ok"])
-        self.assertEqual(buscador.search.call_count, hltb.config.INTENTOS)
-        self.assertEqual(reloj.sleep.call_count, hltb.config.INTENTOS - 1)
+        self.assertEqual(buscador.search.call_count, hltb.config.INTENTOS_HLTB)
+        self.assertEqual(reloj.sleep.call_count, hltb.config.INTENTOS_HLTB - 1)
 
 
 STEAM_CON_UPGRADE = """<div id="appHubAppName">DEATH STRANDING DIRECTOR'S CUT</div><div id="game_area_purchase">
