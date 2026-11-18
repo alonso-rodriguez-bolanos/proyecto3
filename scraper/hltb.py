@@ -48,8 +48,13 @@ def _horas(valor) -> float | None:
     return round(float(valor), 1) if valor else None
 
 
+def nombre_corto(nombre: str) -> str:
+    """Quita lo que HLTB no pone en sus nombres: el año entre paréntesis y la edición después de " - ". Por ejemplo "DOOM (2016)" queda "DOOM" y "Disco Elysium - The Final Cut" queda "Disco Elysium"."""
+    return re.sub(r"\s*\(.*?\)", "", nombre).split(" - ")[0].strip()
+
+
 def buscar(juego: dict):
-    """Devuelve el resultado de HLTB del juego (por id si url_hltb trae uno, si no por nombre y año) o None. Puede lanzar excepciones."""
+    """Devuelve el resultado de HLTB del juego (por id si url_hltb trae uno, si no por nombre y año) o None. Si el nombre completo no da resultado prueba con el nombre corto. Puede lanzar excepciones."""
     from howlongtobeatpy import HowLongToBeat  # import aquí para que el motor funcione aunque falte la biblioteca
 
     buscador = HowLongToBeat()
@@ -57,7 +62,13 @@ def buscar(juego: dict):
     if id_hltb:
         return _consultar(lambda: buscador.search_from_id(int(id_hltb.group(1))))
     fecha = str(juego.get("fecha_lanzamiento") or "")
-    return elegir(_consultar(lambda: buscador.search(juego["nombre"])), int(fecha[:4]) if fecha[:4].isdigit() else None)
+    anio = int(fecha[:4]) if fecha[:4].isdigit() else None
+    resultado = None
+    for nombre in dict.fromkeys([juego["nombre"], nombre_corto(juego["nombre"])]):  # sin repetir si son iguales
+        resultado = elegir(_consultar(lambda: buscador.search(nombre, similarity_case_sensitive=False)), anio)  # INSIDE = Inside
+        if resultado:
+            break
+    return resultado
 
 
 @fuente_segura("hltb")

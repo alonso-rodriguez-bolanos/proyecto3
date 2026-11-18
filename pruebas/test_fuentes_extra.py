@@ -92,6 +92,20 @@ class PruebasHltb(unittest.TestCase):
         self.assertEqual(buscador.search.call_count, hltb.config.INTENTOS_HLTB)
         self.assertEqual(reloj.sleep.call_count, hltb.config.INTENTOS_HLTB - 1)
 
+    def test_nombre_corto(self):
+        self.assertEqual(hltb.nombre_corto("DOOM (2016)"), "DOOM")
+        self.assertEqual(hltb.nombre_corto("Disco Elysium - The Final Cut"), "Disco Elysium")
+        self.assertEqual(hltb.nombre_corto("Star Wars Jedi: Survivor"), "Star Wars Jedi: Survivor")
+
+    def test_si_el_nombre_completo_falla_usa_el_corto(self):
+        buscador = mock.Mock()
+        buscador.search.side_effect = [[], [_juego_hltb("Doom", 1.0, 1993), _juego_hltb("Doom", 1.0, 2016, 11.5, 25.0)]]
+        with mock.patch("howlongtobeatpy.HowLongToBeat", return_value=buscador):
+            resultado = hltb.scrape_hltb({"nombre": "DOOM (2016)", "fecha_lanzamiento": "2016-05-13"})
+        self.assertEqual(resultado["horas_main"], 11.5)  # el del año del REPO, no el de 1993
+        self.assertEqual([c.args[0] for c in buscador.search.call_args_list], ["DOOM (2016)", "DOOM"])
+        self.assertFalse(buscador.search.call_args.kwargs["similarity_case_sensitive"])
+
     def test_reintenta_y_al_final_no_lanza(self):
         buscador = mock.Mock()
         buscador.search.side_effect = ConnectionError("caído")
