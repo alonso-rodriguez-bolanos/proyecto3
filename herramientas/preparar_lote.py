@@ -5,7 +5,7 @@ el precio sugerido (precio regular de Steam, o el de PS Store si Steam no lo mue
 No escribe en Supabase: deja un CSV listo para el botón "Importar CSV" del gestor y otro con los que hay que revisar a mano.
 
 Uso:
-    python herramientas/preparar_lote.py datos/candidatos_persona3.csv
+    python herramientas/preparar_lote.py datos/candidatos.csv
 Salida:
     datos/lote_listo.csv     juegos que pasan tabla.problemas y cuyo Steam y PS Store salieron OK
     datos/lote_revisar.csv   el resto, con el motivo en la columna "revisar"
@@ -89,7 +89,7 @@ def escribir(juegos: list[dict], ruta: Path, con_motivo: bool) -> None:
 
 
 def main() -> None:
-    entrada = Path(sys.argv[1] if len(sys.argv) > 1 else CARPETA / "candidatos_persona3.csv")
+    entrada = Path(sys.argv[1] if len(sys.argv) > 1 else CARPETA / "candidatos.csv")
     existentes = {enlaces.normalizar(j["nombre"]) for j in tabla.leer_csv()} if tabla.RUTA_CSV.exists() else set()
     filas = [f for f in csv.DictReader(open(entrada, encoding="utf-8")) if enlaces.normalizar(f["nombre"]) not in existentes]
     print(f"{len(filas)} juegos nuevos para preparar\n")

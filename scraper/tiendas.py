@@ -241,7 +241,7 @@ def scrape_xbox(juego: dict) -> dict:
 # ---------- Nivel 3 ----------
 
 def _scrape_eshop(juego: dict) -> dict:
-    """Cuarta tienda opcional (Persona 3). Si scraper/eshop.py todavía no existe se marca como error sin detener nada."""
+    """Cuarta tienda opcional. Si scraper/eshop.py todavía no existe se marca como error sin detener nada."""
     try:
         from .eshop import scrape_eshop
     except ImportError:

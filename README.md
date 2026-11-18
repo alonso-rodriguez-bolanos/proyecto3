@@ -18,7 +18,7 @@ Después se llenan las llaves de Supabase en el `.env`. Las llaves se piden por 
 ## Correr
 
 ```
-python gestor.py                       # ventana para ver y editar los juegos
+python gestor.py                       # ventana para editar los juegos y, en la pestaña Ejecutar, cambiar procesos e hilos y correr el scraper
 python ejecutar.py                     # con los scrapers reales
 python ejecutar.py --falsos            # con los scrapers de prueba
 python ejecutar.py --workers 8         # cantidad de procesos
@@ -27,7 +27,7 @@ python -m scraper.tiendas 5            # prueba las tiendas reales con los prime
 python -m scraper.metacritic 5         # prueba Metacritic
 python -m scraper.hltb 5               # prueba How Long To Beat
 python herramientas/benchmark.py       # mide 1, 2, 4, 8 y 16 procesos y dibuja los gráficos en docs/benchmark
-python herramientas/preparar_lote.py datos/candidatos_persona3.csv  # busca enlaces, precio y fecha de juegos nuevos
+python herramientas/preparar_lote.py datos/candidatos.csv  # busca enlaces, precio y fecha de juegos nuevos
 python herramientas/armar_documento.py  # junta las secciones de docs/ en el documento técnico (md, html y pdf)
 python -m http.server -d web 8000      # ver la página en http://localhost:8000 (?mock=1 para los datos de prueba)
 python -m unittest discover -s pruebas # pruebas
@@ -52,7 +52,7 @@ Documento completo: **[`docs/documento_tecnico.pdf`](docs/documento_tecnico.pdf)
 | Carpeta | Contenido |
 |---|---|
 | `ejecutar.py` | Programa principal |
-| `gestor.py` | Ventana para administrar los juegos de Supabase |
+| `gestor.py` | Ventana con dos pestañas: Juegos (administrar Supabase) y Ejecutar (procesos, hilos, límites por sitio y correr el scraper; los ajustes se guardan en el `.env`) |
 | `scraper/` | Motor paralelo y scrapers |
 | `herramientas/` | Lógica que usa el gestor: tabla de Supabase y búsqueda de enlaces |
 | `datos/juegos.csv` | Respaldo de los juegos, se actualiza solo al abrir el gestor |

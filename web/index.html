@@ -328,6 +328,23 @@
   .prueba { border-radius: 999px; font: 600 10px Inter, sans-serif; letter-spacing: .02em; text-transform: none; padding: 2px 8px; background: var(--tinte); border-color: var(--borde-verde); }
   th { font: 600 11px Inter, sans-serif; }
   tr.mejor td:first-child { box-shadow: inset 3px 0 0 var(--verde); }
+
+  /* ---------- rendimiento: vista simple y vista de explicación ---------- */
+  .app.sin-filtros { grid-template-columns: minmax(0, 1fr); }
+  .app.sin-filtros aside { display: none; }
+  .rend-graficos { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rend-graficos .ancho { grid-column: 1 / -1; }
+  @media (max-width: 900px) { .rend-graficos { grid-template-columns: 1fr; } }
+  .panel-cab { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 6px; min-height: 32px; }
+  .panel-cab h3 { margin: 0; }
+  .dato { font: 700 24px Inter, sans-serif; color: var(--verde); white-space: nowrap; }
+  .dato small { font-size: 12px; color: var(--suave); font-weight: 500; margin-left: 6px; }
+  .rend-pie { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .boton.auto { width: auto; padding: 10px 18px; }
+  .boton.auto::before { content: none; display: none; }
+  .rend-detalle .panel { margin-bottom: 16px; }
+  .rend-detalle > .boton { margin-bottom: 16px; }
+  .rend-detalle ul { margin: 6px 0 0; padding-left: 18px; color: var(--suave); font-size: 13px; line-height: 1.6; }
 </style>
 </head>
 <body>
@@ -419,6 +436,8 @@ let rendimiento = null;  // lo escribe herramientas/benchmark.py
 let vista = "todos";
 const platsElegidas = new Set();
 const formatosElegidos = new Set();
+let formatosConJuegos = new Set();  // formatos que vende al menos una tienda
+let rendDetalle = false;  // vista de explicación dentro de Rendimiento
 const FORMATOS = ["Digital", "Físico", "Otro"];  // el enunciado pide filtrar por físico, digital u otro
 const formatoDe = (t) => (t.formato === "Digital" || t.formato === "Físico" ? t.formato : "Otro");
 
@@ -780,13 +799,18 @@ function pintar() {
   $("comparar").hidden = vista !== "comparar";
   $("rendimiento").hidden = vista !== "rendimiento";
   $("stats").hidden = vista === "rendimiento";
+  document.querySelector(".app").classList.toggle("sin-filtros", vista === "rendimiento");  // los filtros no aplican a Rendimiento
   $("caja-orden").hidden = vista === "comparar" || vista === "rendimiento";
   if (vista === "rendimiento") { $("resumen").textContent = ""; pintarRendimiento(); return; }
   if (vista === "comparar") { pintarComparador(filtrar()); return; }
 
   const lista = filtrar().sort((a, b) => ORDENES[$("orden").value](a, b) || a.nombre.localeCompare(b.nombre, "es"));
   $("resumen").textContent = lista.length + " / " + juegos.length;
-  $("lista").replaceChildren(...(lista.length ? lista.map(tarjeta) : [el("p", "vacio", "Ningún juego cumple los filtros")]));
+  const sinFormato = [...formatosElegidos].filter((f) => !formatosConJuegos.has(f));
+  const vacío = sinFormato.length && sinFormato.length === formatosElegidos.size
+    ? "No hay ningún juego en formato " + sinFormato.join(" u ") + ": las tiendas consultadas solo venden en digital"
+    : "Ningún juego cumple los filtros";
+  $("lista").replaceChildren(...(lista.length ? lista.map(tarjeta) : [el("p", "vacio", vacío)]));
 }
 
 // ---------- comparador PC vs PlayStation ----------
@@ -849,56 +873,86 @@ function pintarRendimiento() {
     caja.replaceChildren(el("p", "vacio", "Todavía no se ha corrido el benchmark (python herramientas/benchmark.py)"));
     return;
   }
+  if (rendDetalle) { pintarExplicacion(caja); return; }
   const r = rendimiento.resumen;
   const sec = r.find((f) => f.config === "secuencial");
   const par = r.filter((f) => f.config !== "secuencial").sort((a, b) => a.workers - b.workers);
-  const mejor = par.reduce((m, f) => (!m || f.promedio_s < m.promedio_s ? f : m), null);
+  const mejor = par.reduce((m, f) => (!m || f.speedup > m.speedup ? f : m), null);
   const partes = [];
   if (rendimiento.prueba) partes.push(el("div", "aviso", "⚠ Datos de prueba: estos números son inventados para mostrar el diseño. Se reemplazan al correr el benchmark."));
 
-  const kpis = el("div", "rend-kpis");
-  [[sec ? Math.round(sec.promedio_s) + "s" : "–", "Versión secuencial"], [mejor ? Math.round(mejor.promedio_s) + "s" : "–", "Mejor tiempo (" + (mejor ? mejor.workers : "–") + " procesos)"],
-   [mejor ? mejor.speedup.toFixed(1) + "×" : "–", "Speedup máximo"], [rendimiento.juegos ?? "–", "Juegos medidos (4 fuentes c/u)"]].forEach(([n, t]) => {
-    const c = el("div", "stat"); c.append(el("div", "num", n), el("div", "lbl", t)); kpis.append(c);
-  });
-  partes.push(kpis);
-
   const log2 = (n) => Math.log2(n);
-  const ejeW = par.map((f) => ({ v: log2(f.workers), t: f.workers + (f.workers === 1 ? " proc." : "") }));
+  const ejeW = par.map((f) => ({ v: log2(f.workers), t: f.workers + (f.workers === 1 ? " proceso" : "") }));
   const xMax = log2(par[par.length - 1].workers);
-  const panel = (titulo, texto, svg, items) => { const p = el("div", "panel"); p.append(el("h3", "", titulo), el("p", "", texto), svg); if (items) p.append(leyenda(items)); return p; };
+  const dato = (valor, texto) => { const d = el("div", "dato", valor); d.append(el("small", "", texto)); return d; };
+  const panel = (titulo, extra, texto, svg, items, clase) => {
+    const p = el("div", "panel" + (clase ? " " + clase : ""));
+    const cab = el("div", "panel-cab"); cab.append(el("h3", "", titulo)); if (extra) cab.append(extra);
+    p.append(cab, el("p", "", texto), svg); if (items) p.append(leyenda(items)); return p;
+  };
 
   const todos = [sec, ...par].filter(Boolean);
   const graficos = el("div", "rend-graficos");
-  graficos.append(panel("Tiempo total", "Promedio de " + (rendimiento.repeticiones || 3) + " repeticiones por configuración.",
+  graficos.append(panel("Tiempo total", dato(rendimiento.juegos ?? "–", "juegos medidos"),
+    "Promedio de " + (rendimiento.repeticiones || 3) + " corridas por configuración.",
     grafico({ nombre: "Tiempo total por configuración", ancho: 1000, alto: 260, xMin: -0.5, xMax: todos.length - 0.5, yMax: Math.max(...todos.map((f) => f.promedio_s)) * 1.15,
-              ejeX: todos.map((f, i) => ({ v: i, t: f.config === "secuencial" ? "Sec." : f.workers })), ejeY: (v) => Math.round(v) + "s",
+              ejeX: todos.map((f, i) => ({ v: i, t: f.config === "secuencial" ? "Secuencial" : f.workers + (f.workers === 1 ? " proceso" : " procesos") })), ejeY: (v) => Math.round(v) + "s",
               series: [{ barras: true, puntos: todos.map((f, i) => [i, f.promedio_s]), colores: todos.map((f) => (f.config === "secuencial" ? "#555" : "#44d62c")),
-                         etiquetas: todos.map((f) => Math.round(f.promedio_s) + "s") }] })));
+                         etiquetas: todos.map((f) => Math.round(f.promedio_s) + "s") }] }), null, "ancho"));
   const yS = Math.max(...par.map((f) => Math.max(f.speedup, f.workers))) * 1.1;
-  graficos.append(panel("Speedup", "T secuencial / T paralelo. La línea punteada es el speedup ideal (lineal).",
-    grafico({ nombre: "Speedup", ancho: 480, alto: 280, xMin: 0, xMax, yMax: yS, ejeX: ejeW, ejeY: (v) => v.toFixed(0) + "×",
+  graficos.append(panel("Speedup", mejor ? dato(mejor.speedup.toFixed(1) + "×", "máximo, con " + mejor.workers + " procesos") : null,
+    "Tiempo secuencial ÷ tiempo paralelo.",
+    grafico({ nombre: "Speedup", ancho: 560, alto: 320, xMin: 0, xMax, yMax: yS, ejeX: ejeW, ejeY: (v) => v.toFixed(0) + "×",
               series: [{ color: "#666", punteado: true, puntos: par.map((f) => [log2(f.workers), f.workers]) },
                        { color: "#44d62c", formato: (v) => v.toFixed(2) + "×", puntos: par.map((f) => [log2(f.workers), f.speedup]) }] }),
     [{ color: "#44d62c", texto: "Medido" }, { color: "#666", texto: "Ideal", punteado: true }]));
   const yE = Math.max(1.2, ...par.map((f) => f.eficiencia)) * 1.1;
-  graficos.append(panel("Eficiencia", "Speedup / procesos. Puede pasar de 1 porque los hilos esperan la red a la vez.",
-    grafico({ nombre: "Eficiencia", ancho: 480, alto: 280, xMin: 0, xMax, yMax: yE, ejeX: ejeW, ejeY: (v) => v.toFixed(1),
+  graficos.append(panel("Eficiencia", null,
+    "Speedup ÷ procesos.",
+    grafico({ nombre: "Eficiencia", ancho: 560, alto: 320, xMin: 0, xMax, yMax: yE, ejeX: ejeW, ejeY: (v) => v.toFixed(1),
               series: [{ color: "#666", punteado: true, puntos: [[0, 1], [xMax, 1]] },
                        { color: "#44d62c", formato: (v) => v.toFixed(2), puntos: par.map((f) => [log2(f.workers), f.eficiencia]) }] }),
     [{ color: "#44d62c", texto: "Medida" }, { color: "#666", texto: "Ideal (1)", punteado: true }]));
   partes.push(graficos);
 
+  const pie = el("div", "rend-pie");
+  const m = rendimiento.maquina || {};
+  pie.append(el("p", "pie", "Medido en una computadora con " + (m.nucleos_logicos || "–") + " núcleos lógicos" + (m.fecha ? " el " + m.fecha.slice(0, 10) : "")));
+  const ir = el("button", "boton auto", "Cómo funciona →");
+  ir.type = "button"; ir.onclick = () => cambiarDetalle(true);
+  pie.append(ir);
+  partes.push(pie);
+  caja.replaceChildren(...partes);
+}
+
+function cambiarDetalle(valor) {
+  rendDetalle = valor;
+  const url = new URL(location.href);
+  if (valor) url.searchParams.set("detalle", "1"); else url.searchParams.delete("detalle");
+  history.replaceState(null, "", url);  // el enlace abre directo la explicación
+  pintarRendimiento();
+  window.scrollTo(0, 0);
+}
+
+function pintarExplicacion(caja) {
+  const r = rendimiento.resumen;
+  const par = r.filter((f) => f.config !== "secuencial").sort((a, b) => a.workers - b.workers);
+  const partes = [el("div", "rend-detalle")];
+  const cont = partes[0];
+  const volver = el("button", "boton auto", "← Volver a los gráficos");
+  volver.type = "button"; volver.onclick = () => cambiarDetalle(false);
+  cont.append(volver);
+
   const niveles = el("div", "panel");
   niveles.append(el("h3", "", "Los 3 niveles de paralelismo"));
   const n = el("div", "niveles");
-  [["1", "Juegos", "Procesos (ProcessPoolExecutor), uno por núcleo. Cada proceso tiene su propio GIL."],
-   ["2", "Fuentes", "3 hilos por juego: tiendas, Metacritic y HLTB se consultan a la vez."],
-   ["3", "Tiendas", "2 hilos: Steam y PlayStation Store al mismo tiempo."]].forEach(([num, t, p]) => {
+  [["1", "Juegos", "Procesos: cada uno revisa un juego distinto."],
+   ["2", "Fuentes", "3 hilos por juego: tiendas, Metacritic y HLTB."],
+   ["3", "Tiendas", "2 hilos: Steam y PlayStation Store."]].forEach(([num, t, p]) => {
     const c = el("div", "nivel"); c.append(el("div", "num", num), el("h4", "", t), el("p", "", p)); n.append(c);
   });
   niveles.append(n);
-  partes.push(niveles);
+  cont.append(niveles);
 
   const amdahl = el("div", "panel");
   amdahl.append(el("h3", "", "Ley de Amdahl"));
@@ -907,14 +961,12 @@ function pintarRendimiento() {
   if (uno && ult && ult.workers > 1) {
     const S = uno.promedio_s / ult.promedio_s;
     const p = (1 - 1 / S) / (1 - 1 / ult.workers);
-    amdahl.append(el("p", "", `Tomando 1 proceso como base, con ${ult.workers} procesos el speedup del nivel 1 es ${S.toFixed(2)}×, lo que da p ≈ ${p.toFixed(2)}. ` +
-      `El speedup máximo posible sería 1 / (1 − p) ≈ ${p < 1 ? (1 / (1 - p)).toFixed(1) + "×" : "∞"}.`));
+    amdahl.append(el("p", "", `De 1 a ${ult.workers} procesos: ${S.toFixed(2)}× → p ≈ ${p.toFixed(2)} → máximo ≈ ${p < 1 ? (1 / (1 - p)).toFixed(1) + "×" : "∞"}. Lo que no se paraleliza son los límites por sitio.`));
   }
-  amdahl.append(el("p", "", "La parte que no se puede paralelizar es sobre todo el límite por sitio: pocas solicitudes a la vez y una pausa entre cada una para no saturar a las tiendas. Por eso la curva se aplana aunque se agreguen procesos."));
-  partes.push(amdahl);
+  cont.append(amdahl);
 
   const m = rendimiento.maquina || {};
-  partes.push(el("p", "pie", "Computadora: " + (m.procesador || "–") + " · " + (m.nucleos_logicos || "–") + " núcleos lógicos" + (m.fecha ? " · medido el " + m.fecha : "")));
+  cont.append(el("p", "pie", "Computadora: " + (m.procesador || "–") + " · " + (m.nucleos_logicos || "–") + " núcleos lógicos" + (m.fecha ? " · medido el " + m.fecha : "")));
   caja.replaceChildren(...partes);
 }
 
@@ -938,9 +990,10 @@ function iniciar(datos) {
     $("plataformas").append(c);
   });
   unicos((j) => j.tiendas.map((t) => t.tienda)).forEach((t) => $("tienda").append(new Option(t, t)));
-  const hay = new Set(juegos.flatMap((j) => tiendasOk(j).map(formatoDe)));
+  formatosConJuegos = new Set(juegos.flatMap((j) => tiendasOk(j).map(formatoDe)));
+  const hay = formatosConJuegos;
   FORMATOS.forEach((fmt) => {
-    const c = el("button", "chip", fmt + (hay.has(fmt) ? "" : " (0)"));
+    const c = el("button", "chip", fmt);
     c.type = "button"; c.setAttribute("aria-pressed", "false");
     c.title = hay.has(fmt) ? "" : "Ninguna tienda consultada vende este formato por ahora";
     c.onclick = () => { formatosElegidos.has(fmt) ? formatosElegidos.delete(fmt) : formatosElegidos.add(fmt); c.setAttribute("aria-pressed", formatosElegidos.has(fmt)); pintar(); };
@@ -963,6 +1016,8 @@ document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () 
   vista = t.dataset.vista;
   const url = new URL(location.href);
   if (vista === "todos") url.searchParams.delete("vista"); else url.searchParams.set("vista", vista);
+  url.searchParams.delete("detalle");  // al tocar una pestaña se vuelve a la vista principal
+  rendDetalle = false;
   history.replaceState(null, "", url);  // el enlace abre la misma pestaña
   document.querySelectorAll(".tab").forEach((o) => o.setAttribute("aria-selected", o === t));
   if (vista === "top") $("orden").value = "metacritic";
@@ -994,8 +1049,10 @@ Promise.all([cargar(FUENTE), opcional(MOCK ? "mock_historial.json" : "historial.
     historial = hist && typeof hist === "object" ? hist : {};
     rendimiento = rend;
     iniciar(datos);
-    const pedida = new URLSearchParams(location.search).get("vista");
+    const parámetros = new URLSearchParams(location.search);  // se leen antes de que la pestaña cambie la URL
+    const pedida = parámetros.get("vista");
     if (pedida && VISTAS[pedida]) elegirVista(pedida);
+    if (pedida === "rendimiento" && parámetros.get("detalle") === "1") cambiarDetalle(true);
   })
   .catch((e) => {
     $("actualizado").textContent = "Sin conexión";
