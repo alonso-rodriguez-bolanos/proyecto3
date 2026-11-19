@@ -2,6 +2,8 @@
 
 Lee la lista de juegos de Supabase, consulta precios, Metacritic y How Long To Beat en paralelo y genera `web/data.json` para la página web.
 
+III Proyecto Programado de IC3101 Arquitectura de Computadores, grupo 51, Instituto Tecnológico de Costa Rica, Sede San Carlos. Integrantes: Andrew Arce Pérez, Alonso Rodríguez Bolaños y Daniel Rojas Vargas.
+
 **Página:** https://alonso-rodriguez-bolanos.github.io/proyecto3/ · se actualiza sola cada 12 h con GitHub Actions (`.github/workflows/actualizar.yml`).
 
 ## Instalar
@@ -28,24 +30,16 @@ python -m scraper.metacritic 5         # prueba Metacritic
 python -m scraper.hltb 5               # prueba How Long To Beat
 python herramientas/benchmark.py       # mide 1, 2, 4, 8 y 16 procesos y dibuja los gráficos en docs/benchmark
 python herramientas/preparar_lote.py datos/candidatos.csv  # busca enlaces, precio y fecha de juegos nuevos
-python herramientas/armar_documento.py  # junta las secciones de docs/ en el documento técnico (md, html y pdf)
 python -m http.server -d web 8000      # ver la página en http://localhost:8000 (?mock=1 para los datos de prueba)
 python -m unittest discover -s pruebas # pruebas
 ```
 
-## Documento técnico
+## Documentación
 
-Documento completo: **[`docs/documento_tecnico.pdf`](docs/documento_tecnico.pdf)** (también en `.md` y `.html`). Se arma con `python herramientas/armar_documento.py` a partir de las secciones:
-
-| Sección | Archivo |
+| Archivo | Contenido |
 |---|---|
-| 1. Arquitectura y diagrama de los tres niveles | `docs/seccion1_arquitectura.md`, `docs/arquitectura.svg` |
-| 2. Estructura del REPO y cómo se actualiza | `docs/seccion2_repo.md` |
-| 3. Scraping de tiendas e indicador de oferta | `docs/seccion3_tiendas.md` |
-| 3. Scraping de Metacritic y HLTB, consistencia del JSON | `docs/seccion3_metacritic_hltb.md` |
-| 4. Manejo de errores y actualización recurrente | `docs/seccion4_actualizacion.md` |
-| 5. Rendimiento | `docs/seccion5_rendimiento.md`, `docs/benchmark/` |
-| 6. Instalación y URL | `docs/seccion6_instalacion.md` |
+| [`docs/Documentacion.pdf`](docs/Documentacion.pdf) | Documento técnico en formato APA: arquitectura, tres niveles de paralelismo, scraping de cada sitio, manejo de errores, sustentación del diseño, análisis de rendimiento con la Ley de Amdahl, instalación y conclusiones |
+| `docs/benchmark/` | Datos originales del análisis de rendimiento: tiempos de cada corrida (`tiempos.csv`), promedios (`resumen.csv`), datos de la computadora (`maquina.json`) y gráficos de tiempo, speedup y eficiencia |
 
 ## Estructura
 
@@ -54,7 +48,8 @@ Documento completo: **[`docs/documento_tecnico.pdf`](docs/documento_tecnico.pdf)
 | `ejecutar.py` | Programa principal |
 | `gestor.py` | Ventana con dos pestañas: Juegos (administrar Supabase) y Ejecutar (procesos, hilos, límites por sitio y correr el scraper; los ajustes se guardan en el `.env`) |
 | `scraper/` | Motor paralelo y scrapers |
-| `herramientas/` | Lógica que usa el gestor: tabla de Supabase y búsqueda de enlaces |
+| `herramientas/` | Lógica que usa el gestor (tabla de Supabase y búsqueda de enlaces), carga de juegos nuevos, revisión de enlaces y benchmark |
+| `docs/` | Documento técnico y datos del análisis de rendimiento |
 | `datos/juegos.csv` | Respaldo de los juegos, se actualiza solo al abrir el gestor |
 | `sql/` | Creación de la tabla |
 | `pruebas/` | Pruebas automáticas |
