@@ -43,7 +43,7 @@
    "horas_completo": 95.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:20+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:22+00:00"
  },
  {
   "id": 2,
@@ -89,7 +89,7 @@
    "horas_completo": 175.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:19+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:19+00:00"
  },
  {
   "id": 3,
@@ -134,7 +134,7 @@
    "horas_completo": 196.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:21+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:19+00:00"
  },
  {
   "id": 4,
@@ -180,7 +180,7 @@
    "horas_completo": 89.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:19+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:21+00:00"
  },
  {
   "id": 5,
@@ -225,7 +225,7 @@
    "horas_completo": 109.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:23+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:23+00:00"
  },
  {
   "id": 6,
@@ -271,7 +271,7 @@
    "horas_completo": 136.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:24+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:24+00:00"
  },
  {
   "id": 7,
@@ -297,10 +297,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 29.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
-    "en_oferta": true,
-    "descuento_pct": 50,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/201190",
@@ -316,7 +316,7 @@
    "horas_completo": 100.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:25+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:25+00:00"
  },
  {
   "id": 8,
@@ -361,7 +361,7 @@
    "horas_completo": 69.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:26+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:26+00:00"
  },
  {
   "id": 9,
@@ -387,10 +387,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
-    "en_oferta": true,
-    "descuento_pct": 50,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/227770",
@@ -406,7 +406,7 @@
    "horas_completo": 51.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:28+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:27+00:00"
  },
  {
   "id": 10,
@@ -433,10 +433,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 29.39,
+    "precio_actual": 69.99,
     "precio_regular": 69.99,
-    "en_oferta": true,
-    "descuento_pct": 58,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10001850",
@@ -452,7 +452,7 @@
    "horas_completo": 55.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:29+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:28+00:00"
  },
  {
   "id": 11,
@@ -497,7 +497,7 @@
    "horas_completo": 44.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:31+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:29+00:00"
  },
  {
   "id": 12,
@@ -543,7 +543,7 @@
    "horas_completo": 18.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:32+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:30+00:00"
  },
  {
   "id": 13,
@@ -588,7 +588,7 @@
    "horas_completo": 28.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:33+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:31+00:00"
  },
  {
   "id": 14,
@@ -614,10 +614,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 20.99,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
-    "en_oferta": true,
-    "descuento_pct": 58,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/221727",
@@ -633,7 +633,7 @@
    "horas_completo": 75.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:34+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:33+00:00"
  },
  {
   "id": 15,
@@ -678,7 +678,7 @@
    "horas_completo": 117.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:35+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:34+00:00"
  },
  {
   "id": 16,
@@ -724,7 +724,7 @@
    "horas_completo": 62.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:37+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:35+00:00"
  },
  {
   "id": 17,
@@ -769,7 +769,7 @@
    "horas_completo": 24.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:38+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:36+00:00"
  },
  {
   "id": 18,
@@ -814,7 +814,7 @@
    "horas_completo": 45.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:39+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:37+00:00"
  },
  {
   "id": 19,
@@ -859,7 +859,7 @@
    "horas_completo": 52.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:41+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:38+00:00"
  },
  {
   "id": 20,
@@ -904,7 +904,7 @@
    "horas_completo": 65.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:42+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:39+00:00"
  },
  {
   "id": 21,
@@ -930,10 +930,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 20.49,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
-    "en_oferta": true,
-    "descuento_pct": 59,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/product/UP9000-PPSA01969_00-DEATHSTRANDINGUS",
@@ -949,7 +949,7 @@
    "horas_completo": 111.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:43+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:41+00:00"
  },
  {
   "id": 22,
@@ -994,7 +994,7 @@
    "horas_completo": 63.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:44+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:42+00:00"
  },
  {
   "id": 23,
@@ -1039,7 +1039,7 @@
    "horas_completo": 18.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:46+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:43+00:00"
  },
  {
   "id": 24,
@@ -1066,10 +1066,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 25.19,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
-    "en_oferta": true,
-    "descuento_pct": 58,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000177",
@@ -1085,7 +1085,7 @@
    "horas_completo": 34.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:47+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:44+00:00"
  },
  {
   "id": 25,
@@ -1130,7 +1130,7 @@
    "horas_completo": 87.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:48+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:45+00:00"
  },
  {
   "id": 26,
@@ -1175,7 +1175,7 @@
    "horas_completo": 57.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:49+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:46+00:00"
  },
  {
   "id": 27,
@@ -1201,10 +1201,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 29.39,
+    "precio_actual": 69.99,
     "precio_regular": 69.99,
-    "en_oferta": true,
-    "descuento_pct": 58,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10003386",
@@ -1220,7 +1220,7 @@
    "horas_completo": 68.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:51+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:47+00:00"
  },
  {
   "id": 28,
@@ -1265,7 +1265,7 @@
    "horas_completo": 181.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:52+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:49+00:00"
  },
  {
   "id": 29,
@@ -1291,10 +1291,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 7.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
-    "en_oferta": true,
-    "descuento_pct": 80,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/230955",
@@ -1310,7 +1310,7 @@
    "horas_completo": 203.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:53+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:50+00:00"
  },
  {
   "id": 30,
@@ -1356,7 +1356,7 @@
    "horas_completo": 160.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:10:54+00:00"
+  "ultima_actualizacion": "2026-11-21T14:14:51+00:00"
  },
  {
   "id": 31,
@@ -1402,7 +1402,7 @@
    "horas_completo": 64.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:33+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:31+00:00"
  },
  {
   "id": 32,
@@ -1448,7 +1448,7 @@
    "horas_completo": 36.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:38+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:31+00:00"
  },
  {
   "id": 33,
@@ -1494,7 +1494,7 @@
    "horas_completo": 20.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:39+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:35+00:00"
  },
  {
   "id": 34,
@@ -1540,7 +1540,7 @@
    "horas_completo": 38.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:42+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:38+00:00"
  },
  {
   "id": 35,
@@ -1586,7 +1586,7 @@
    "horas_completo": 28.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:35+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:33+00:00"
  },
  {
   "id": 36,
@@ -1631,7 +1631,7 @@
    "horas_completo": 432.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:36+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:34+00:00"
  },
  {
   "id": 37,
@@ -1677,7 +1677,7 @@
    "horas_completo": 187.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:40+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:37+00:00"
  },
  {
   "id": 38,
@@ -1722,7 +1722,7 @@
    "horas_completo": 114.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:43+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:40+00:00"
  },
  {
   "id": 39,
@@ -1768,7 +1768,7 @@
    "horas_completo": 78.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:44+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:41+00:00"
  },
  {
   "id": 40,
@@ -1814,7 +1814,7 @@
    "horas_completo": 71.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:45+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:42+00:00"
  },
  {
   "id": 41,
@@ -1859,7 +1859,7 @@
    "horas_completo": 17.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:46+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:43+00:00"
  },
  {
   "id": 42,
@@ -1905,7 +1905,7 @@
    "horas_completo": 140.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:47+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:44+00:00"
  },
  {
   "id": 43,
@@ -1951,7 +1951,7 @@
    "horas_completo": 100.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:49+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:45+00:00"
  },
  {
   "id": 44,
@@ -1996,7 +1996,7 @@
    "horas_completo": 61.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:50+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:47+00:00"
  },
  {
   "id": 45,
@@ -2022,10 +2022,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 7.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
-    "en_oferta": true,
-    "descuento_pct": 80,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/228744",
@@ -2041,7 +2041,7 @@
    "horas_completo": 85.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:51+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:48+00:00"
  },
  {
   "id": 46,
@@ -2086,7 +2086,7 @@
    "horas_completo": 82.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:52+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:49+00:00"
  },
  {
   "id": 47,
@@ -2131,7 +2131,7 @@
    "horas_completo": 162.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:53+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:51+00:00"
  },
  {
   "id": 48,
@@ -2176,7 +2176,7 @@
    "horas_completo": 129.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:54+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:52+00:00"
  },
  {
   "id": 49,
@@ -2221,7 +2221,7 @@
    "horas_completo": 65.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:55+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:53+00:00"
  },
  {
   "id": 50,
@@ -2247,10 +2247,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 4.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
-    "en_oferta": true,
-    "descuento_pct": 75,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/231477",
@@ -2266,7 +2266,7 @@
    "horas_completo": 39.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:56+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:54+00:00"
  },
  {
   "id": 51,
@@ -2311,7 +2311,7 @@
    "horas_completo": 91.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:58+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:55+00:00"
  },
  {
   "id": 52,
@@ -2337,10 +2337,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 10.49,
+    "precio_actual": 14.99,
     "precio_regular": 14.99,
-    "en_oferta": true,
-    "descuento_pct": 30,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/227229",
@@ -2356,7 +2356,7 @@
    "horas_completo": 173.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:11:58+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:58+00:00"
  },
  {
   "id": 53,
@@ -2401,7 +2401,7 @@
    "horas_completo": 28.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:00+00:00"
+  "ultima_actualizacion": "2026-11-21T14:15:59+00:00"
  },
  {
   "id": 54,
@@ -2446,7 +2446,7 @@
    "horas_completo": 4.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:01+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:01+00:00"
  },
  {
   "id": 55,
@@ -2492,7 +2492,7 @@
    "horas_completo": 29.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:03+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:02+00:00"
  },
  {
   "id": 56,
@@ -2519,10 +2519,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
-    "en_oferta": true,
-    "descuento_pct": 75,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002292",
@@ -2538,7 +2538,7 @@
    "horas_completo": 48.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:05+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:04+00:00"
  },
  {
   "id": 57,
@@ -2584,7 +2584,7 @@
    "horas_completo": 15.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:08+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:07+00:00"
  },
  {
   "id": 58,
@@ -2630,7 +2630,7 @@
    "horas_completo": 21.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:06+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:05+00:00"
  },
  {
   "id": 59,
@@ -2676,7 +2676,7 @@
    "horas_completo": 22.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:07+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:06+00:00"
  },
  {
   "id": 60,
@@ -2722,7 +2722,7 @@
    "horas_completo": 16.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:48+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:47+00:00"
  },
  {
   "id": 61,
@@ -2767,7 +2767,7 @@
    "horas_completo": 7.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:50+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:48+00:00"
  },
  {
   "id": 62,
@@ -2812,7 +2812,7 @@
    "horas_completo": 16.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:52+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:50+00:00"
  },
  {
   "id": 63,
@@ -2858,7 +2858,7 @@
    "horas_completo": 58.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:54+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:52+00:00"
  },
  {
   "id": 64,
@@ -2904,7 +2904,7 @@
    "horas_completo": 72.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:48+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:49+00:00"
  },
  {
   "id": 65,
@@ -2949,7 +2949,7 @@
    "horas_completo": 31.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:51+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:51+00:00"
  },
  {
   "id": 66,
@@ -2994,7 +2994,7 @@
    "horas_completo": 55.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:12:53+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:53+00:00"
  },
  {
   "id": 67,
@@ -3039,7 +3039,7 @@
    "horas_completo": 138.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:01+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:54+00:00"
  },
  {
   "id": 68,
@@ -3084,7 +3084,7 @@
    "horas_completo": 78.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:03+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:55+00:00"
  },
  {
   "id": 69,
@@ -3130,7 +3130,7 @@
    "horas_completo": 152.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:04+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:56+00:00"
  },
  {
   "id": 70,
@@ -3175,7 +3175,7 @@
    "horas_completo": 145.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:05+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:03+00:00"
  },
  {
   "id": 71,
@@ -3221,7 +3221,7 @@
    "horas_completo": 30.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:06+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:58+00:00"
  },
  {
   "id": 72,
@@ -3267,7 +3267,7 @@
    "horas_completo": 65.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:07+00:00"
+  "ultima_actualizacion": "2026-11-21T14:16:59+00:00"
  },
  {
   "id": 73,
@@ -3293,10 +3293,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 8.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
-    "en_oferta": true,
-    "descuento_pct": 85,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/221692",
@@ -3312,7 +3312,7 @@
    "horas_completo": 47.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:08+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:00+00:00"
  },
  {
   "id": 74,
@@ -3357,7 +3357,7 @@
    "horas_completo": 46.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:10+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:01+00:00"
  },
  {
   "id": 75,
@@ -3384,10 +3384,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 27.99,
+    "precio_actual": 69.99,
     "precio_regular": 69.99,
-    "en_oferta": true,
-    "descuento_pct": 60,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10000248",
@@ -3403,7 +3403,7 @@
    "horas_completo": 260.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:11+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:02+00:00"
  },
  {
   "id": 76,
@@ -3430,10 +3430,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 5.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
-    "en_oferta": true,
-    "descuento_pct": 85,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/231819",
@@ -3449,7 +3449,7 @@
    "horas_completo": 38.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:12+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:03+00:00"
  },
  {
   "id": 77,
@@ -3475,10 +3475,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 4.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
-    "en_oferta": true,
-    "descuento_pct": 75,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/200472",
@@ -3494,7 +3494,7 @@
    "horas_completo": 51.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:13+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:04+00:00"
  },
  {
   "id": 78,
@@ -3539,7 +3539,7 @@
    "horas_completo": 57.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:15+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:05+00:00"
  },
  {
   "id": 79,
@@ -3584,7 +3584,7 @@
    "horas_completo": 60.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:16+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:06+00:00"
  },
  {
   "id": 80,
@@ -3629,7 +3629,7 @@
    "horas_completo": 61.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:17+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:08+00:00"
  },
  {
   "id": 81,
@@ -3656,10 +3656,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.89,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
-    "en_oferta": true,
-    "descuento_pct": 67,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/232624",
@@ -3675,7 +3675,7 @@
    "horas_completo": 29.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:18+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:08+00:00"
  },
  {
   "id": 82,
@@ -3720,7 +3720,7 @@
    "horas_completo": 27.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:21+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:11+00:00"
  },
  {
   "id": 83,
@@ -3765,7 +3765,7 @@
    "horas_completo": 34.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:25+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:15+00:00"
  },
  {
   "id": 84,
@@ -3810,7 +3810,7 @@
    "horas_completo": 46.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:22+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:11+00:00"
  },
  {
   "id": 85,
@@ -3855,7 +3855,7 @@
    "horas_completo": 46.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:23+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:14+00:00"
  },
  {
   "id": 86,
@@ -3900,7 +3900,7 @@
    "horas_completo": 36.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:26+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:16+00:00"
  },
  {
   "id": 87,
@@ -3945,7 +3945,7 @@
    "horas_completo": 40.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:27+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:16+00:00"
  },
  {
   "id": 88,
@@ -3991,7 +3991,7 @@
    "horas_completo": 85.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:28+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:17+00:00"
  },
  {
   "id": 89,
@@ -4037,7 +4037,7 @@
    "horas_completo": 52.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:10+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:56+00:00"
  },
  {
   "id": 90,
@@ -4083,7 +4083,7 @@
    "horas_completo": 50.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:48+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:58+00:00"
  },
  {
   "id": 91,
@@ -4128,7 +4128,7 @@
    "horas_completo": 67.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:50+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:01+00:00"
  },
  {
   "id": 92,
@@ -4174,7 +4174,7 @@
    "horas_completo": 30.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:53+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:02+00:00"
  },
  {
   "id": 93,
@@ -4220,7 +4220,7 @@
    "horas_completo": 58.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:49+00:00"
+  "ultima_actualizacion": "2026-11-21T14:17:59+00:00"
  },
  {
   "id": 94,
@@ -4265,7 +4265,7 @@
    "horas_completo": 205.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:51+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:00+00:00"
  },
  {
   "id": 95,
@@ -4311,7 +4311,7 @@
    "horas_completo": 155.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:54+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:03+00:00"
  },
  {
   "id": 96,
@@ -4338,10 +4338,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 7.49,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
-    "en_oferta": true,
-    "descuento_pct": 75,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/232883",
@@ -4357,7 +4357,7 @@
    "horas_completo": 51.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:55+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:04+00:00"
  },
  {
   "id": 97,
@@ -4383,10 +4383,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 7.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
-    "en_oferta": true,
-    "descuento_pct": 60,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/10000039",
@@ -4402,7 +4402,7 @@
    "horas_completo": 6.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:56+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:05+00:00"
  },
  {
   "id": 98,
@@ -4428,10 +4428,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 8.49,
+    "precio_actual": 24.99,
     "precio_regular": 24.99,
-    "en_oferta": true,
-    "descuento_pct": 66,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/231121",
@@ -4447,7 +4447,7 @@
    "horas_completo": 25.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:59+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:07+00:00"
  },
  {
   "id": 99,
@@ -4474,10 +4474,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
-    "en_oferta": true,
-    "descuento_pct": 60,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10001235",
@@ -4493,7 +4493,7 @@
    "horas_completo": 20.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:13:58+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:08+00:00"
  },
  {
   "id": 100,
@@ -4520,10 +4520,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 14.99,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
-    "en_oferta": true,
-    "descuento_pct": 50,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10001114",
@@ -4539,7 +4539,7 @@
    "horas_completo": 10.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:00+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:10+00:00"
  },
  {
   "id": 101,
@@ -4585,7 +4585,7 @@
    "horas_completo": 43.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:01+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:11+00:00"
  },
  {
   "id": 102,
@@ -4631,7 +4631,7 @@
    "horas_completo": 94.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:02+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:12+00:00"
  },
  {
   "id": 103,
@@ -4677,7 +4677,7 @@
    "horas_completo": 26.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:03+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:13+00:00"
  },
  {
   "id": 104,
@@ -4722,7 +4722,7 @@
    "horas_completo": 19.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:04+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:13+00:00"
  },
  {
   "id": 106,
@@ -4768,7 +4768,7 @@
    "horas_completo": 118.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:05+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:15+00:00"
  },
  {
   "id": 107,
@@ -4795,10 +4795,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
-    "en_oferta": true,
-    "descuento_pct": 75,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/232859",
@@ -4814,7 +4814,7 @@
    "horas_completo": 99.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:07+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:16+00:00"
  },
  {
   "id": 108,
@@ -4859,7 +4859,7 @@
    "horas_completo": 42.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:08+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:17+00:00"
  },
  {
   "id": 109,
@@ -4905,7 +4905,7 @@
    "horas_completo": 102.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:09+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:18+00:00"
  },
  {
   "id": 110,
@@ -4950,7 +4950,7 @@
    "horas_completo": 30.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:11+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:18+00:00"
  },
  {
   "id": 111,
@@ -4996,7 +4996,7 @@
    "horas_completo": 15.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:13+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:19+00:00"
  },
  {
   "id": 112,
@@ -5022,10 +5022,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.89,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
-    "en_oferta": true,
-    "descuento_pct": 67,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002848",
@@ -5042,7 +5042,7 @@
    "horas_completo": 91.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:14+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:21+00:00"
  },
  {
   "id": 113,
@@ -5087,7 +5087,7 @@
    "horas_completo": 148.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:15+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:22+00:00"
  },
  {
   "id": 114,
@@ -5132,7 +5132,7 @@
    "horas_completo": 68.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:17+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:23+00:00"
  },
  {
   "id": 115,
@@ -5158,10 +5158,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 19.59,
+    "precio_actual": 69.99,
     "precio_regular": 69.99,
-    "en_oferta": true,
-    "descuento_pct": 72,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/product/UP0101-PPSA08710_00-MAINGAME00000000",
@@ -5177,7 +5177,7 @@
    "horas_completo": 32.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:18+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:24+00:00"
  },
  {
   "id": 346,
@@ -5222,7 +5222,7 @@
    "horas_completo": 100.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:19+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:25+00:00"
  },
  {
   "id": 347,
@@ -5267,7 +5267,7 @@
    "horas_completo": 86.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:21+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:27+00:00"
  },
  {
   "id": 348,
@@ -5293,10 +5293,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 7.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
-    "en_oferta": true,
-    "descuento_pct": 80,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/232910",
@@ -5312,7 +5312,7 @@
    "horas_completo": 28.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:23+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:28+00:00"
  },
  {
   "id": 349,
@@ -5358,7 +5358,7 @@
    "horas_completo": 50.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:24+00:00"
+  "ultima_actualizacion": "2026-11-21T14:18:30+00:00"
  },
  {
   "id": 350,
@@ -5404,7 +5404,7 @@
    "horas_completo": 62.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:05+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:09+00:00"
  },
  {
   "id": 351,
@@ -5450,7 +5450,7 @@
    "horas_completo": 31.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:09+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:11+00:00"
  },
  {
   "id": 352,
@@ -5495,7 +5495,7 @@
    "horas_completo": 66.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:11+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:14+00:00"
  },
  {
   "id": 353,
@@ -5540,7 +5540,7 @@
    "horas_completo": 85.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:48+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:16+00:00"
  },
  {
   "id": 354,
@@ -5585,7 +5585,7 @@
    "horas_completo": 51.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:50+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:10+00:00"
  },
  {
   "id": 355,
@@ -5630,7 +5630,7 @@
    "horas_completo": 35.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:51+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:13+00:00"
  },
  {
   "id": 356,
@@ -5675,7 +5675,7 @@
    "horas_completo": 36.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:53+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:15+00:00"
  },
  {
   "id": 357,
@@ -5720,7 +5720,7 @@
    "horas_completo": 93.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:55+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:17+00:00"
  },
  {
   "id": 358,
@@ -5765,7 +5765,7 @@
    "horas_completo": 113.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:56+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:19+00:00"
  },
  {
   "id": 359,
@@ -5810,7 +5810,7 @@
    "horas_completo": 18.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:58+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:20+00:00"
  },
  {
   "id": 360,
@@ -5855,7 +5855,7 @@
    "horas_completo": 140.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:14:59+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:22+00:00"
  },
  {
   "id": 361,
@@ -5881,10 +5881,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 19.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
-    "en_oferta": true,
-    "descuento_pct": 50,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/229482",
@@ -5900,7 +5900,7 @@
    "horas_completo": 68.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:01+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:23+00:00"
  },
  {
   "id": 362,
@@ -5926,10 +5926,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 19.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
-    "en_oferta": true,
-    "descuento_pct": 50,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/226237",
@@ -5945,7 +5945,7 @@
    "horas_completo": 102.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:03+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:24+00:00"
  },
  {
   "id": 363,
@@ -5991,7 +5991,7 @@
    "horas_completo": 74.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:06+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:25+00:00"
  },
  {
   "id": 364,
@@ -6036,7 +6036,7 @@
    "horas_completo": 152.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:08+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:26+00:00"
  },
  {
   "id": 365,
@@ -6081,7 +6081,7 @@
    "horas_completo": 51.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:13+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:27+00:00"
  },
  {
   "id": 366,
@@ -6127,7 +6127,7 @@
    "horas_completo": 55.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:15+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:29+00:00"
  },
  {
   "id": 367,
@@ -6172,7 +6172,7 @@
    "horas_completo": 44.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:17+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:38+00:00"
  },
  {
   "id": 368,
@@ -6198,10 +6198,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 5.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
-    "en_oferta": true,
-    "descuento_pct": 90,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/229759",
@@ -6217,7 +6217,7 @@
    "horas_completo": 62.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:18+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:31+00:00"
  },
  {
   "id": 369,
@@ -6262,7 +6262,7 @@
    "horas_completo": 9.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:20+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:32+00:00"
  },
  {
   "id": 370,
@@ -6307,7 +6307,7 @@
    "horas_completo": 8.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:21+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:33+00:00"
  },
  {
   "id": 371,
@@ -6353,7 +6353,7 @@
    "horas_completo": 60.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:23+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:35+00:00"
  },
  {
   "id": 372,
@@ -6398,7 +6398,7 @@
    "horas_completo": 19.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:25+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:36+00:00"
  },
  {
   "id": 373,
@@ -6443,7 +6443,7 @@
    "horas_completo": 160.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:26+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:37+00:00"
  },
  {
   "id": 374,
@@ -6488,7 +6488,7 @@
    "horas_completo": 105.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:28+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:38+00:00"
  },
  {
   "id": 375,
@@ -6514,10 +6514,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 6.29,
+    "precio_actual": 20.99,
     "precio_regular": 20.99,
-    "en_oferta": true,
-    "descuento_pct": 70,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/229479",
@@ -6533,7 +6533,7 @@
    "horas_completo": 81.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:30+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:40+00:00"
  },
  {
   "id": 376,
@@ -6579,7 +6579,7 @@
    "horas_completo": 50.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:32+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:41+00:00"
  },
  {
   "id": 377,
@@ -6605,10 +6605,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 19.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
-    "en_oferta": true,
-    "descuento_pct": 50,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/231073",
@@ -6624,7 +6624,7 @@
    "horas_completo": 127.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:33+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:42+00:00"
  },
  {
   "id": 378,
@@ -6670,7 +6670,7 @@
    "horas_completo": 13.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:35+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:44+00:00"
  },
  {
   "id": 379,
@@ -6716,7 +6716,7 @@
    "horas_completo": 26.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:37+00:00"
+  "ultima_actualizacion": "2026-11-21T14:19:45+00:00"
  },
  {
   "id": 380,
@@ -6761,7 +6761,7 @@
    "horas_completo": 57.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:05+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:24+00:00"
  },
  {
   "id": 381,
@@ -6807,7 +6807,7 @@
    "horas_completo": 103.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:07+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:26+00:00"
  },
  {
   "id": 382,
@@ -6833,10 +6833,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
-    "en_oferta": true,
-    "descuento_pct": 50,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/217751",
@@ -6852,7 +6852,7 @@
    "horas_completo": 84.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:09+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:28+00:00"
  },
  {
   "id": 383,
@@ -6878,10 +6878,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
-    "en_oferta": true,
-    "descuento_pct": 50,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/228780",
@@ -6897,7 +6897,7 @@
    "horas_completo": 80.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:49+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:32+00:00"
  },
  {
   "id": 384,
@@ -6924,10 +6924,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.99,
+    "precio_actual": 49.99,
     "precio_regular": 49.99,
-    "en_oferta": true,
-    "descuento_pct": 80,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10008306",
@@ -6943,7 +6943,7 @@
    "horas_completo": 33.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:50+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:25+00:00"
  },
  {
   "id": 385,
@@ -6970,10 +6970,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 11.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
-    "en_oferta": true,
-    "descuento_pct": 80,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10002616",
@@ -6989,7 +6989,7 @@
    "horas_completo": 107.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:52+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:27+00:00"
  },
  {
   "id": 386,
@@ -7034,7 +7034,7 @@
    "horas_completo": 20.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:15:55+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:29+00:00"
  },
  {
   "id": 387,
@@ -7080,7 +7080,7 @@
    "horas_completo": 28.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:06+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:31+00:00"
  },
  {
   "id": 388,
@@ -7106,10 +7106,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 17.99,
+    "precio_actual": 59.99,
     "precio_regular": 59.99,
-    "en_oferta": true,
-    "descuento_pct": 70,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/10000672",
@@ -7125,7 +7125,7 @@
    "horas_completo": 70.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:10+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:33+00:00"
  },
  {
   "id": 389,
@@ -7170,7 +7170,7 @@
    "horas_completo": 132.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:12+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:35+00:00"
  },
  {
   "id": 390,
@@ -7216,7 +7216,7 @@
    "horas_completo": 109.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:13+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:36+00:00"
  },
  {
   "id": 391,
@@ -7263,7 +7263,7 @@
    "horas_completo": 114.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:15+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:37+00:00"
  },
  {
   "id": 392,
@@ -7308,7 +7308,7 @@
    "horas_completo": 127.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:17+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:42+00:00"
  },
  {
   "id": 393,
@@ -7354,7 +7354,7 @@
    "horas_completo": 66.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:18+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:40+00:00"
  },
  {
   "id": 394,
@@ -7399,7 +7399,7 @@
    "horas_completo": 34.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:20+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:41+00:00"
  },
  {
   "id": 395,
@@ -7425,10 +7425,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 4.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
-    "en_oferta": true,
-    "descuento_pct": 75,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/202943",
@@ -7444,7 +7444,7 @@
    "horas_completo": 69.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:22+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:42+00:00"
  },
  {
   "id": 396,
@@ -7490,7 +7490,7 @@
    "horas_completo": 89.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:24+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:44+00:00"
  },
  {
   "id": 397,
@@ -7516,10 +7516,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 4.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
-    "en_oferta": true,
-    "descuento_pct": 75,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/202765",
@@ -7535,7 +7535,7 @@
    "horas_completo": 61.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:26+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:45+00:00"
  },
  {
   "id": 398,
@@ -7580,7 +7580,7 @@
    "horas_completo": 69.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:27+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:49+00:00"
  },
  {
   "id": 399,
@@ -7625,7 +7625,7 @@
    "horas_completo": 27.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:29+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:49+00:00"
  },
  {
   "id": 400,
@@ -7670,7 +7670,7 @@
    "horas_completo": 37.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:31+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:50+00:00"
  },
  {
   "id": 401,
@@ -7715,7 +7715,7 @@
    "horas_completo": 16.1,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:32+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:52+00:00"
  },
  {
   "id": 402,
@@ -7760,7 +7760,7 @@
    "horas_completo": 51.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:34+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:53+00:00"
  },
  {
   "id": 403,
@@ -7805,7 +7805,7 @@
    "horas_completo": 13.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:36+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:53+00:00"
  },
  {
   "id": 404,
@@ -7850,7 +7850,7 @@
    "horas_completo": 317.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:37+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:55+00:00"
  },
  {
   "id": 405,
@@ -7895,7 +7895,7 @@
    "horas_completo": 41.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:39+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:57+00:00"
  },
  {
   "id": 406,
@@ -7921,10 +7921,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 7.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
-    "en_oferta": true,
-    "descuento_pct": 80,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/228861",
@@ -7940,7 +7940,7 @@
    "horas_completo": 28.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:40+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:58+00:00"
  },
  {
   "id": 407,
@@ -7985,7 +7985,7 @@
    "horas_completo": 39.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:42+00:00"
+  "ultima_actualizacion": "2026-11-21T14:20:59+00:00"
  },
  {
   "id": 408,
@@ -8030,7 +8030,7 @@
    "horas_completo": 60.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:44+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:01+00:00"
  },
  {
   "id": 409,
@@ -8075,7 +8075,7 @@
    "horas_completo": 24.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:46+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:02+00:00"
  },
  {
   "id": 410,
@@ -8120,7 +8120,7 @@
    "horas_completo": 24.6,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:57+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:42+00:00"
  },
  {
   "id": 411,
@@ -8146,10 +8146,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 2.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
-    "en_oferta": true,
-    "descuento_pct": 85,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/216773",
@@ -8165,7 +8165,7 @@
    "horas_completo": 89.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:59+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:45+00:00"
  },
  {
   "id": 412,
@@ -8211,7 +8211,7 @@
    "horas_completo": 97.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:50+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:46+00:00"
  },
  {
   "id": 413,
@@ -8256,7 +8256,7 @@
    "horas_completo": 46.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:52+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:24+00:00"
  },
  {
   "id": 414,
@@ -8302,7 +8302,7 @@
    "horas_completo": 65.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:53+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:25+00:00"
  },
  {
   "id": 415,
@@ -8328,10 +8328,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.89,
+    "precio_actual": 14.99,
     "precio_regular": 14.99,
-    "en_oferta": true,
-    "descuento_pct": 34,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/228887",
@@ -8347,7 +8347,7 @@
    "horas_completo": 20.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:55+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:26+00:00"
  },
  {
   "id": 416,
@@ -8392,7 +8392,7 @@
    "horas_completo": 190.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:16:58+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:28+00:00"
  },
  {
   "id": 417,
@@ -8437,7 +8437,7 @@
    "horas_completo": 150.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:01+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:30+00:00"
  },
  {
   "id": 418,
@@ -8463,10 +8463,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 2.99,
+    "precio_actual": 14.99,
     "precio_regular": 14.99,
-    "en_oferta": true,
-    "descuento_pct": 80,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/216187",
@@ -8482,7 +8482,7 @@
    "horas_completo": 159.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:02+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:30+00:00"
  },
  {
   "id": 419,
@@ -8508,10 +8508,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 4.49,
+    "precio_actual": 29.99,
     "precio_regular": 29.99,
-    "en_oferta": true,
-    "descuento_pct": 85,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS4",
     "url": "https://store.playstation.com/en-us/concept/10000752",
@@ -8527,7 +8527,7 @@
    "horas_completo": 42.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:03+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:33+00:00"
  },
  {
   "id": 420,
@@ -8572,7 +8572,7 @@
    "horas_completo": 6.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:05+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:35+00:00"
  },
  {
   "id": 421,
@@ -8617,7 +8617,7 @@
    "horas_completo": 5.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:07+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:37+00:00"
  },
  {
   "id": 422,
@@ -8662,7 +8662,7 @@
    "horas_completo": 4.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:10+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:38+00:00"
  },
  {
   "id": 423,
@@ -8707,7 +8707,7 @@
    "horas_completo": 5.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:12+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:40+00:00"
  },
  {
   "id": 424,
@@ -8752,7 +8752,7 @@
    "horas_completo": 24.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:13+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:41+00:00"
  },
  {
   "id": 425,
@@ -8798,7 +8798,7 @@
    "horas_completo": 51.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:15+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:43+00:00"
  },
  {
   "id": 426,
@@ -8825,10 +8825,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 11.99,
+    "precio_actual": 14.99,
     "precio_regular": 14.99,
-    "en_oferta": true,
-    "descuento_pct": 20,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10010334",
@@ -8844,7 +8844,7 @@
    "horas_completo": 250.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:17+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:44+00:00"
  },
  {
   "id": 427,
@@ -8889,7 +8889,7 @@
    "horas_completo": 17.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:19+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:48+00:00"
  },
  {
   "id": 428,
@@ -8916,10 +8916,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.99,
+    "precio_actual": 24.99,
     "precio_regular": 24.99,
-    "en_oferta": true,
-    "descuento_pct": 60,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10006032",
@@ -8935,7 +8935,7 @@
    "horas_completo": 24.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:21+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:49+00:00"
  },
  {
   "id": 429,
@@ -8962,10 +8962,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 9.99,
+    "precio_actual": 24.99,
     "precio_regular": 24.99,
-    "en_oferta": true,
-    "descuento_pct": 60,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10005446",
@@ -8981,7 +8981,7 @@
    "horas_completo": 5.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:23+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:51+00:00"
  },
  {
   "id": 430,
@@ -9027,7 +9027,7 @@
    "horas_completo": 20.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:25+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:52+00:00"
  },
  {
   "id": 431,
@@ -9073,7 +9073,7 @@
    "horas_completo": 31.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:27+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:53+00:00"
  },
  {
   "id": 432,
@@ -9118,7 +9118,7 @@
    "horas_completo": 127.7,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:29+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:57+00:00"
  },
  {
   "id": 433,
@@ -9145,10 +9145,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 15.99,
+    "precio_actual": 39.99,
     "precio_regular": 39.99,
-    "en_oferta": true,
-    "descuento_pct": 60,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10008048",
@@ -9164,7 +9164,7 @@
    "horas_completo": 108.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:30+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:58+00:00"
  },
  {
   "id": 434,
@@ -9209,7 +9209,7 @@
    "horas_completo": 724.8,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:32+00:00"
+  "ultima_actualizacion": "2026-11-21T14:21:59+00:00"
  },
  {
   "id": 435,
@@ -9254,7 +9254,7 @@
    "horas_completo": 143.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:34+00:00"
+  "ultima_actualizacion": "2026-11-21T14:22:00+00:00"
  },
  {
   "id": 436,
@@ -9301,7 +9301,7 @@
    "horas_completo": 40.0,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:36+00:00"
+  "ultima_actualizacion": "2026-11-21T14:22:01+00:00"
  },
  {
   "id": 437,
@@ -9347,7 +9347,7 @@
    "horas_completo": 46.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:37+00:00"
+  "ultima_actualizacion": "2026-11-21T14:22:03+00:00"
  },
  {
   "id": 438,
@@ -9392,7 +9392,7 @@
    "horas_completo": 24.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:39+00:00"
+  "ultima_actualizacion": "2026-11-21T14:22:04+00:00"
  },
  {
   "id": 439,
@@ -9437,7 +9437,7 @@
    "horas_completo": 37.4,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:41+00:00"
+  "ultima_actualizacion": "2026-11-21T14:22:05+00:00"
  },
  {
   "id": 440,
@@ -9482,7 +9482,7 @@
    "horas_completo": 10.5,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:18:00+00:00"
+  "ultima_actualizacion": "2026-11-21T14:22:24+00:00"
  },
  {
   "id": 441,
@@ -9528,7 +9528,7 @@
    "horas_completo": 15.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:50+00:00"
+  "ultima_actualizacion": "2026-11-21T14:22:25+00:00"
  },
  {
   "id": 442,
@@ -9573,7 +9573,7 @@
    "horas_completo": 27.3,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:51+00:00"
+  "ultima_actualizacion": "2026-11-21T14:22:27+00:00"
  },
  {
   "id": 443,
@@ -9618,7 +9618,7 @@
    "horas_completo": 32.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:55+00:00"
+  "ultima_actualizacion": "2026-11-21T14:22:29+00:00"
  },
  {
   "id": 444,
@@ -9663,7 +9663,7 @@
    "horas_completo": 22.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:53+00:00"
+  "ultima_actualizacion": "2026-11-21T14:22:26+00:00"
  },
  {
   "id": 445,
@@ -9708,7 +9708,7 @@
    "horas_completo": 18.9,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:54+00:00"
+  "ultima_actualizacion": "2026-11-21T14:22:28+00:00"
  },
  {
   "id": 446,
@@ -9734,10 +9734,10 @@
    },
    {
     "tienda": "PlayStation Store",
-    "precio_actual": 13.99,
+    "precio_actual": 19.99,
     "precio_regular": 19.99,
-    "en_oferta": true,
-    "descuento_pct": 30,
+    "en_oferta": false,
+    "descuento_pct": 0,
     "formato": "Digital",
     "plataforma": "PS5",
     "url": "https://store.playstation.com/en-us/concept/10005673",
@@ -9753,6 +9753,6 @@
    "horas_completo": 153.2,
    "ok": true
   },
-  "ultima_actualizacion": "2026-11-21T07:17:57+00:00"
+  "ultima_actualizacion": "2026-11-21T14:22:31+00:00"
  }
 ]
